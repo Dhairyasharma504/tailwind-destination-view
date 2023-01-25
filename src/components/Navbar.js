@@ -1,5 +1,29 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { HiMenuAlt3 } from 'react-icons/hi';
+
+const navItems = [
+  {
+    lable: 'Home',
+    link: '/',
+  },
+  {
+    lable: 'Destinations',
+    link: '/',
+  },
+  {
+    lable: 'Reservations',
+    link: '/',
+  },
+  {
+    lable: 'Amenities',
+    link: '/',
+  },
+  {
+    lable: 'Rooms',
+    link: '/',
+  },
+];
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -28,11 +52,13 @@ const Navbar = () => {
         }
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
-          <li className="font-bold text-3xl p-8">Home</li>
-          <li className="font-bold text-3xl p-8">Destinations</li>
-          <li className="font-bold text-3xl p-8">Reservations</li>
-          <li className="font-bold text-3xl p-8">Amenities</li>
-          <li className="font-bold text-3xl p-8">Rooms</li>
+          {navItems.map((data) => (
+            <div key={data.lable} className="font-bold text-3xl p-8">
+              <Link href={data.link} legacyBehavior>
+                <a>{data.lable}</a>
+              </Link>
+            </div>
+          ))}
         </ul>
       </div>
     </div>
