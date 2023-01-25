@@ -1,12 +1,15 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import Navbar from '../components/Navbar';
+
+import Layout from '../components/Layout';
+
+import Pricing from '../components/Pricing';
 
 const index = () => {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      <Layout>
+        <Pricing />
+      </Layout>
     </div>
   );
 };

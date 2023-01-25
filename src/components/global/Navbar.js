@@ -9,7 +9,7 @@ const navItems = [
   },
   {
     lable: 'Destinations',
-    link: '/',
+    link: '/destination',
   },
   {
     lable: 'Reservations',
@@ -21,7 +21,7 @@ const navItems = [
   },
   {
     lable: 'Rooms',
-    link: '/',
+    link: '/rooms',
   },
 ];
 
