@@ -37,7 +37,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="absolute w-full flex justify-between p-4 items-center">
+    <div className="absolute w-full flex justify-between p-4 items-center ">
       <h1 className="text-white font-bold text-2xl z-20">Experiences</h1>
       <HiMenuAlt3
         onClick={handleNav}

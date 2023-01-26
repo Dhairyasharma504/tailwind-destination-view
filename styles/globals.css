@@ -27,12 +27,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.bg-images{
+
+  background-image: url("https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg");
 }
