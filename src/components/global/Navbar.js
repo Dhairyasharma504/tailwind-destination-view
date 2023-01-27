@@ -29,11 +29,6 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
-    if (!nav) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'scroll';
-    }
   };
 
   return (
@@ -54,9 +49,7 @@ const Navbar = () => {
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
           {navItems.map((data) => (
             <div key={data.lable} className="font-bold text-3xl p-8">
-              <Link href={data.link} legacyBehavior>
-                <a>{data.lable}</a>
-              </Link>
+              <Link href={data.link}>{data.lable}</Link>
             </div>
           ))}
         </ul>
