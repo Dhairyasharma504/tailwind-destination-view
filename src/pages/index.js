@@ -1,4 +1,5 @@
 import React from 'react';
+import Guidance from '../components/Guidance';
 
 import Layout from '../components/Layout';
 
@@ -9,6 +10,7 @@ const index = () => {
     <div>
       <Layout>
         <Pricing />
+        <Guidance />
       </Layout>
     </div>
   );
