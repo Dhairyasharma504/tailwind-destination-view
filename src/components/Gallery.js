@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './atoms/Title';
+
 import Texthero from './elements/Texthero';
 
 const Gallery = () => {
