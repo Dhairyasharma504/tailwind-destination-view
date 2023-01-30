@@ -35,7 +35,7 @@ const Guidance = () => {
               <div className=" mx-auto text-7xl pt-9 text-secondary flex justify-center  ">
                 {data.icon}
               </div>
-              <h3 className=" font-semibold  pb-16   text-center text-lg text-darkshade">
+              <h3 className=" font-semibold  mb-8 mt-8 font-primary   text-center text-lg text-darkshade">
                 {data.text}
               </h3>
             </div>

@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div className="absolute w-full flex justify-between p-4 items-center ">
       <Link href="/">
-        <h1 className="text-white font-bold text-2xl z-20 cursor-pointer  hover:text-brand">
+        <h1 className="text-white font-bold text-2xl z-20 cursor-pointer font-primary  hover:text-brand">
           Experiences
         </h1>
       </Link>
