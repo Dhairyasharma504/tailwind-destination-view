@@ -9,7 +9,7 @@ module.exports = {
       colors: ({ theme }) => ({
         brand: '#fca801',
         primary: '#57b8b6',
-        secondary: '#346f9d',
+        secondary: '#014b85',
         darkshade: '#3f1f38',
         lightshade: '#ffffff',
       }),

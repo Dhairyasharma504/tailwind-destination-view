@@ -30,3 +30,8 @@ a {
 .bg-images{
 background-image: url("/images/h1_hero.jpg.webp");
 }
+.border-box
+{
+  border: 1px solid #dafcef;
+
+}

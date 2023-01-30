@@ -1,4 +1,5 @@
 import React from 'react';
+import Gallery from '../components/Gallery';
 import Guidance from '../components/Guidance';
 
 import Layout from '../components/Layout';
@@ -9,8 +10,9 @@ const index = () => {
   return (
     <div>
       <Layout>
-        <Pricing />
+        {/* <Pricing /> */}
         <Guidance />
+        <Gallery />
       </Layout>
     </div>
   );
