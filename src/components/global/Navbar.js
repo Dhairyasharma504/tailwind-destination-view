@@ -46,7 +46,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? 'ease-in duration-300 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex-col z-10'
+            ? 'ease-in duration-300 fixed text-gray-300 left-0 top-0 w-full h-screen bg-brand/95 px-4 py-7 flex-col z-10'
             : 'absolute top-0 h-screen left-[-100%] ease-in duration-500 z-10'
         }
       >
@@ -54,7 +54,7 @@ const Navbar = () => {
           {navItems.map((data) => (
             <div
               key={data.lable}
-              className="font-bold text-3xl p-8 hover:text-brand"
+              className="font-bold text-3xl p-8 hover:underline hover:uppercase "
             >
               <Link href={data.link}>{data.lable}</Link>
             </div>

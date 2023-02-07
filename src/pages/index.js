@@ -7,6 +7,7 @@ import Guidance from '../components/Guidance';
 import Layout from '../components/Layout';
 
 import Pricing from '../components/Pricing';
+import Team from '../components/team';
 
 const index = () => {
   return (
@@ -16,6 +17,7 @@ const index = () => {
         <DescoverStory /> <Guidance />
         <Gallery />
         <Blog />
+        {/* <Team /> */}
       </Layout>
     </div>
   );
