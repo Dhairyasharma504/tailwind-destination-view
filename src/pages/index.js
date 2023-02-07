@@ -6,9 +6,6 @@ import Guidance from '../components/Guidance';
 
 import Layout from '../components/Layout';
 
-import Pricing from '../components/Pricing';
-import Team from '../components/team';
-
 const index = () => {
   return (
     <div>
