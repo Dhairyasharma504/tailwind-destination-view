@@ -1,4 +1,6 @@
 import React from 'react';
+import Blog from '../components/Blog';
+import DescoverStory from '../components/DescoverStory';
 import Gallery from '../components/Gallery';
 import Guidance from '../components/Guidance';
 
@@ -11,8 +13,9 @@ const index = () => {
     <div>
       <Layout>
         {/* <Pricing /> */}
-        <Guidance />
+        <DescoverStory /> <Guidance />
         <Gallery />
+        <Blog />
       </Layout>
     </div>
   );

@@ -1,12 +1,10 @@
 import React from 'react';
 
-const Description = () => {
+const Description = ({ text }) => {
   return (
     <div className="">
-      <p className=" font-light text-base text-primary">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae
-        expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat
-        sapiente.
+      <p className=" font-light text-base text-primary leading-7 py-2">
+        {text}
       </p>
     </div>
   );

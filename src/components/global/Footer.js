@@ -28,7 +28,7 @@ const Footer = () => (
               className="block text-2xl hover:opacity-75 sm:text-3xl text-brand"
               href=""
             >
-              9463030047
+              943060087
             </Link>
           </p>
 
@@ -175,7 +175,7 @@ const Footer = () => (
 
       <div className="mt-12 border-t border-gray-300 pt-12 flex justify-center">
         <div className="text-sm  sm:flex sm:items-center  gap-3">
-          <div className="flex gap-3">
+          <div className="flex  text-lightshade">
             <Link className="hover:opacity-75" href="">
               {' '}
               Privacy Policy{' '}
