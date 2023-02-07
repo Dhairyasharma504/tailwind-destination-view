@@ -14,7 +14,7 @@ const Section = styled.div`
 `;
 
 const Footer = () => (
-  <Section className=" text-darkshade lg:grid lg:grid-cols-3">
+  <Section className=" bg-[#11293c] text-darkshade lg:grid lg:grid-cols-3">
     <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
         <div>
@@ -25,7 +25,7 @@ const Footer = () => (
             </span>
 
             <Link
-              className="block text-2xl hover:opacity-75 sm:text-3xl"
+              className="block text-2xl hover:opacity-75 sm:text-3xl text-brand"
               href=""
             >
               9463030047
@@ -126,7 +126,7 @@ const Footer = () => (
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div>
-            <p className="font-medium">Support</p>
+            <p className="font-medium text-brand">Support</p>
 
             <nav className="mt-4 flex flex-col space-y-2 text-sm text-lightshade">
               <Link className="hover:opacity-75" href="">
@@ -149,7 +149,7 @@ const Footer = () => (
           </div>
 
           <div>
-            <p className="font-medium">Visit Us</p>
+            <p className="font-medium text-brand">Visit Us</p>
 
             <nav className="mt-4 flex flex-col space-y-2 text-sm text-lightshade">
               <Link className="hover:opacity-75" href="https://www.zeiq.co/">

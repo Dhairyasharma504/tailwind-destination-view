@@ -4,18 +4,18 @@ import Texthero from './elements/Texthero';
 
 const Gallery = () => {
   return (
-    <div>
-      <div className="mx-auto text-center">
+    <div className="container mx-auto my-5">
+      <div className="mx-auto text-center ">
         <Texthero title="Favourite Places" heading="FEATURED TOURS Views" />
       </div>
       <section className="overflow-hidden text-gray-700">
         <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
           <div className="flex flex-wrap -m-1 md:-m-2">
             <div className="flex flex-wrap w-1/2">
-              <div className="w-1/2 p-1 md:p-2 ">
+              <div className="w-1/2 p-1 md:p-2 overflow-hidden ">
                 <img
                   alt="gallery"
-                  className="block relative object-cover object-center w-full h-full rounded-lg transition ease-in-out  hover:-translate-y-1 hover:scale-105  duration-500 "
+                  className="block relative object-cover object-center w-full h-full rounded-lg transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-500  "
                   src="/images/services1.jpg.webp"
                 />
               </div>
