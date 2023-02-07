@@ -13,7 +13,7 @@ const Hero = () => {
 
           <div class="   ">
             <p class="text-xl sm:text-2xl xl:text-5xl text-center md:text-left  font-extrabold  leading-6 xl:leading-10 text-white  pb-6">
-              Let's Enjoy The Wonders of Nature
+              Let&apos;s Enjoy The Wonders of Nature
             </p>
             <p class="mt-4 md:w-80 lg:w-2/3 xl:w-3/4 text-center md:text-left text-xl leading-normal text-white">
               Looking to create a greater impact with your commercial Christmas

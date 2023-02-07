@@ -3,7 +3,7 @@ import React from 'react';
 const TeamCard = () => {
   return (
     <div>
-      <div class="relative rounded  shadow-md bg-white">
+      {/* <div class="relative rounded  shadow-md bg-white">
         <div class="absolute  left-40 -top-36 ">
           <div class="h-32 w-32">
             <img
@@ -53,7 +53,8 @@ const TeamCard = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
+      dd
     </div>
   );
 };

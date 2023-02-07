@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Title from '../components/atoms/Title';
-
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import Subtitle from './atoms/Subtitle';
 const blogs = [
   {
@@ -85,11 +85,15 @@ const Blog = () => {
                       <p className="text-base font-medium leading-4 text-white dark:text-gray-900">
                         Read more
                       </p>
-                      <img
+                      {/* <Image
                         className="dark:hidden"
                         src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-IV-svg1.svg"
                         alt="arrow"
-                      />
+                        width={20}
+                        height={20}
+                      /> */}
+
+                      <HiOutlineArrowNarrowRight className=" text-lightshade items-center" />
                     </Link>
                   </div>
                 </div>
