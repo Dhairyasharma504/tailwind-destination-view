@@ -29,13 +29,13 @@ const Guidance = () => {
         {ItemData.map((data) => (
           <div
             key={data.item}
-            className="border-box p-8 justify-center hover:shadow-lg transform duration-700 "
+            className="group border-box p-8 justify-center hover:shadow-lg transform duration-700 "
           >
             <div className="">
-              <div className=" mx-auto text-7xl pt-9 text-secondary flex justify-center  ">
+              <div className=" mx-auto text-7xl pt-9 text-primary flex justify-center group-hover:text-brand  ">
                 {data.icon}
               </div>
-              <h3 className=" font-semibold  mb-8 mt-8 font-primary   text-center text-lg text-darkshade">
+              <h3 className=" font-semibold  mb-8 mt-8 font-primary   text-center text-lg text-darkshade group-hover:text-brand">
                 {data.text}
               </h3>
             </div>

@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: ({ theme }) => ({
-        brand: '#fca801',
-        primary: '#57b8b6',
-        secondary: '#014b85',
-        darkshade: '#3f1f38',
+        brand: '#efba6c',
+        primary: '#364d59',
+        secondary: '#ccc',
+        darkshade: '#000',
         lightshade: '#ffffff',
       }),
       fontFamily: ({ theme }) => ({
