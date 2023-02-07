@@ -40,7 +40,7 @@ const Navbar = () => {
       </Link>
       <HiMenuAlt3
         onClick={handleNav}
-        className="z-20 text-white hover:text-brand cursor-pointer"
+        className="z-20 text-white  cursor-pointer"
         size={25}
       />
       <div
@@ -54,7 +54,7 @@ const Navbar = () => {
           {navItems.map((data) => (
             <div
               key={data.lable}
-              className="font-bold text-3xl p-8 hover:underline hover:uppercase "
+              className="font-bold text-3xl p-8 hover:underline  hover:text-primary "
             >
               <Link href={data.link}>{data.lable}</Link>
             </div>
