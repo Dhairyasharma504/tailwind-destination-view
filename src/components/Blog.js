@@ -82,7 +82,7 @@ const Blog = () => {
                       href={item.link}
                       className="  focus:outline-none flex items-center justify-between w-72 mt-6 bg-gray-800 p-4 hover:bg-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700"
                     >
-                      <p className="text-base font-medium leading-4 text-white dark:text-gray-900">
+                      <p className="text-base font-medium leading-4 text-white ">
                         Read more
                       </p>
                       {/* <Image
