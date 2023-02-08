@@ -4,7 +4,7 @@ const Subscrib = () => {
   return (
     <div>
       <div class="xl:flex items-center 2xl:mx-auto 2xl:container py-16 sm:mx-20">
-        <div class="lg:p-24 sm:p-9 md:p-16 p-4 2xl:w-8/12 xl:w-11/12 w-full sm:border-2 sm:border-gray-800 sm:dark:border-white">
+        <div class="lg:p-24 sm:p-9 md:p-16 p-4 2xl:w-8/12 xl:w-11/12 w-full sm:border-2 sm:border-gray-800">
           <h1 class="text-4xl font-semibold leading-9 text-gray-800 dark:text-white">
             Subscribe
           </h1>
