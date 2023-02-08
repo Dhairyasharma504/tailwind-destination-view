@@ -7,8 +7,8 @@ import Image from 'next/image';
 const DescoverStory = () => {
   return (
     <div className="container mx-auto px-4">
-      <div className="grid  md:grid-cols-2 grid-cols-1">
-        <div className="py-40 px-4 ">
+      <div className="grid  md:grid-cols-2 grid-cols-1 py-9">
+        <div className="flex flex-col justify-center  ">
           <Title title="DISCOVER STORY" />
           <Subtitle subtitle="Our Story" />
           <Description text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente." />

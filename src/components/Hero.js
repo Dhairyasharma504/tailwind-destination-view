@@ -11,7 +11,7 @@ const Hero = () => {
           <span className="md:text-9xl text-6xl">Next tour!</span>
         </p> */}
 
-          <div className=" bg-red-200 md:bg-blue-500 md:w-3/4 lg:bg-yellow-400 xl:w-1/2 2xl:bg-green-200">
+          <div className="   md:w-3/4  xl:w-1/2 ">
             <p className="text-xl sm:text-2xl xl:text-5xl text-center md:text-left  font-extrabold  leading-6 xl:leading-10 text-lightshade pb-6">
               Let&apos;s Enjoy The Wonders of Nature
             </p>
