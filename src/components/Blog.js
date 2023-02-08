@@ -36,7 +36,7 @@ const Blog = () => {
           <Title title="Our blogs" />
           <Subtitle subtitle="updates" />
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-12 p-8">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-6 p-8">
           {blogs.map((item) => (
             <div
               key={item.id}
