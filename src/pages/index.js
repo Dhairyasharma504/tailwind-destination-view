@@ -6,6 +6,7 @@ import Guidance from '../components/Guidance';
 
 import Layout from '../components/global/Layout';
 import Subscrib from '../components/Subscrib';
+import Test from '../components/Test';
 
 const index = () => {
   return (
@@ -15,6 +16,7 @@ const index = () => {
         <DescoverStory /> <Guidance />
         <Gallery />
         <Blog />
+        <Test />
         {/* <Team /> */}
         <Subscrib />
       </Layout>

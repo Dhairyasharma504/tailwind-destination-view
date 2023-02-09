@@ -16,7 +16,7 @@ const DescoverStory = () => {
             <Description text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis enim a pariatur molestiae." />
           </span>
         </div>
-        <div className="">
+        <div className="" data-aos="fade-right">
           <Image
             src="/images/traveler.jpg.webp"
             alt="Picture of the author"

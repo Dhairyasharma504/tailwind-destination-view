@@ -17,11 +17,18 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
           rel="stylesheet"
         />
+
+        <link
+          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+          rel="stylesheet"
+        />
       </Head>
 
       <body>
         <Main />
         <NextScript />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init( ); AOS.refresh();</script>
       </body>
     </Html>
   );
