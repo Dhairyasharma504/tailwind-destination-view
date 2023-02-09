@@ -13,7 +13,7 @@ const HeroWrapper = ({ bgImage, isSmall, children }) => {
           isSmall ? 'md:h-[50vh] h-[50vh]' : 'md:h-[90vh] h-[65vh]'
         } top-0 left-0 bg-cover`}
       >
-        <div className="bg-black/25 h-[90vh]">{children}</div>
+        <div className="bg-black/25 md:h-[90vh] h-[65vh]">{children}</div>
       </div>
     </div>
   );
