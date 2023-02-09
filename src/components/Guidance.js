@@ -31,7 +31,11 @@ const Guidance = () => {
             key={data.item}
             className="group border-box p-8 justify-center hover:shadow-lg transform duration-700 "
           >
-            <div className="">
+            <div
+              className=""
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+            >
               <div className=" mx-auto text-7xl pt-9 text-primary flex justify-center group-hover:text-brand  ">
                 {data.icon}
               </div>

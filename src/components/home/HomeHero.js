@@ -21,7 +21,10 @@ const SliderItem = ({ item }) => (
     </p> */}
 
       <div className="   md:w-3/4  xl:w-1/2 ">
-        <p className="text-xl sm:text-2xl xl:text-5xl text-center md:text-left  font-extrabold  leading-6 xl:leading-10 text-lightshade pb-6">
+        <p
+          className="text-xl sm:text-2xl xl:text-5xl text-center md:text-left  font-extrabold  leading-6 xl:leading-10 text-lightshade pb-6"
+          data-aos="fade-right"
+        >
           Let&apos;s Enjoy The Wonders of {item.title}
         </p>
         <p className="mt-4  text-center md:text-left text-xl leading-normal text-lightshade">
@@ -40,7 +43,7 @@ const HomeHero = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3500,
     arrows: false,
     fade: true,
     pauseOnHover: false,

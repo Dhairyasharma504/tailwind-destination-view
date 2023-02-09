@@ -40,7 +40,10 @@ const Blog = () => {
           {blogs.map((item) => (
             <div
               key={item.id}
-              className=" group cursor-pointer rounded-lg bg-secondcolor "
+              className=" group cursor-pointer rounded-lg bg-secondcolor   "
+              data-aos="flip-left"
+              data-aos-duration="2000"
+              data-aos-offset="120"
             >
               <div className="mx-auto mb-10">
                 <div className=" max-h-[450px] overflow-hidden relative">

@@ -54,7 +54,7 @@ const Navbar = () => {
           {navItems.map((data) => (
             <div
               key={data.lable}
-              className="font-bold text-3xl p-8 hover:underline  hover:text-primary "
+              className="font-bold md:text-3xl text-xl p-8    "
             >
               <Link href={data.link}>{data.lable}</Link>
             </div>
