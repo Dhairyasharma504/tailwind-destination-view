@@ -4,13 +4,13 @@ import DescoverStory from '../components/DescoverStory';
 import Gallery from '../components/Gallery';
 import Guidance from '../components/Guidance';
 
-import Layout from '../components/Layout';
+import Layout from '../components/global/Layout';
 import Subscrib from '../components/Subscrib';
 
 const index = () => {
   return (
     <div>
-      <Layout>
+      <Layout isHome>
         {/* <Pricing /> */}
         <DescoverStory /> <Guidance />
         <Gallery />
