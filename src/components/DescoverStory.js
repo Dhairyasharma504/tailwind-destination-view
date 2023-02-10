@@ -4,7 +4,12 @@ import Description from './atoms/Description';
 import Subtitle from './atoms/Subtitle';
 import Image from 'next/image';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const DescoverStory = () => {
+  AOS?.init();
+  AOS?.refresh();
   return (
     <div className="container mx-auto ">
       <div className="grid  md:grid-cols-2 grid-cols-1 py-9">

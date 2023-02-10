@@ -1,4 +1,5 @@
-import { Html, Head, Main, NextScript, script } from 'next/document';
+import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
   return (
@@ -18,17 +19,17 @@ export default function Document() {
           rel="stylesheet"
         />
 
-        <link
+        {/* <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           rel="stylesheet"
-        />
+        /> */}
       </Head>
 
       <body>
         <Main />
         <NextScript />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>AOS.init( ); AOS.refresh();</script>
+        {/* <Script src="https://unpkg.com/aos@next/dist/aos.js"></Script>
+        <script>AOS.init( ); AOS.refresh();</script> */}
       </body>
     </Html>
   );
