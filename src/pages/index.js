@@ -7,6 +7,7 @@ import dynamic from 'next/dynamic';
 
 import Layout from '../components/global/Layout';
 import Subscrib from '../components/Subscrib';
+import ReviewHero from '../components/review/ReviewHero';
 
 const DescoverStory = dynamic(() => import('../components/DescoverStory'), {
   ssr: false,
@@ -20,6 +21,7 @@ const index = () => {
         <DescoverStory /> <Guidance />
         <Gallery />
         <Blog />
+        <ReviewHero />
         {/* <Team /> */}
         <Subscrib />
       </Layout>

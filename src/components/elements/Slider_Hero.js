@@ -5,9 +5,9 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const SliderComponent = (props) => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
@@ -42,7 +42,7 @@ const SliderComponent = (props) => {
   };
   const { heading, title, data, rowItem } = props;
   return (
-    <div className="max-w-screen-xl px-10 mx-auto pb-14">
+    <div className=" px-5 mx-auto pb-14">
       <Slider {...settings}>
         {data?.map((item) => {
           return rowItem(item);

@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 const Subscrib = () => {
   return (
-    <div>
-      <div className="xl:flex items-center 2xl:mx-auto 2xl:container py-16 sm:mx-20">
+    <div className=" container mx-auto px-8">
+      <div className="xl:flex items-center 2xl:mx-auto 2xl:container py-16 sm:mx-20 ">
         <div className="lg:p-24 sm:p-9 md:p-16 p-4 2xl:w-8/12 xl:w-11/12 w-full sm:border-2 sm:border-primary">
           <h1 className="text-4xl font-semibold leading-9  text-darkshade ">
             Subscribe
@@ -29,7 +29,7 @@ const Subscrib = () => {
             </button>
           </div>
         </div>
-        <div className="w-1/2 xl:block absolute hidden right-0 2xl:-mr-0 -mr-24">
+        <div className="w-1/2 xl:block absolute hidden right-0 2xl:-mr-0 ">
           <Image
             src="/images/traveler.jpg.webp"
             alt="Picture of the author"
