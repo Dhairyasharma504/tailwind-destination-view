@@ -10,6 +10,7 @@ const reviewHero = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.',
     createdAt: '20 aug',
+    image: '/images/person_2.jpg.webp',
   },
   {
     id: 1,
@@ -17,6 +18,7 @@ const reviewHero = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.',
     createdAt: '20 aug',
+    image: '/images/person_1.jpg.webp',
   },
   {
     id: 2,
@@ -24,6 +26,7 @@ const reviewHero = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.',
     createdAt: '24 dec',
+    image: '/images/person_1.jpg.webp',
   },
   {
     id: 3,
@@ -31,6 +34,7 @@ const reviewHero = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.',
     createdAt: '30 aug',
+    image: '/images/person_2.jpg.webp',
   },
 ];
 const ReviewHero = () => {

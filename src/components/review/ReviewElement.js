@@ -1,17 +1,20 @@
 import React from 'react';
+import Image from 'next/image';
 import Description from '../atoms/Description';
 const ReviewElement = ({ item }) => {
   return (
     <div>
       <div className="container mx-auto px-8 ">
-        <div className="bg-brand p-8 ">
-          <div className="flex justify-between pb-4">
+        <div className="bg-brand p-12 ">
+          <div className="flex justify-between py-4 ">
             <div className=" flex">
-              <div className="pr-6">
-                <img
+              <div className="pr-6 ">
+                <Image
                   src={item.image}
                   alt={item.title}
-                  className="object-cover w-12 h-12 rounded-full"
+                  width="40"
+                  height="40"
+                  className="object-cover  rounded-full"
                 />
               </div>
               <div>
@@ -32,7 +35,7 @@ const ReviewElement = ({ item }) => {
               <span className="text-xl font-bold">4.5</span>
             </div>
           </div>
-          <div>
+          <div className="pb-8 pt-4">
             <Description text={item.description} />
           </div>
         </div>
