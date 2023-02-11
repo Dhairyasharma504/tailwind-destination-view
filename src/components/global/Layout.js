@@ -1,5 +1,5 @@
 import Footer from './Footer';
-import HomeHero from '../home/HomeHero';
+import HomeHero from '../homeSection/HomeHero';
 
 import Navbar from './Navbar';
 import Hero from './Hero';

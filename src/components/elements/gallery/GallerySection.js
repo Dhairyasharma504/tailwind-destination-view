@@ -1,7 +1,6 @@
 import React from 'react';
-import Subtitle from '../atoms/Subtitle';
-
-import Title from '../atoms/Title';
+import Subtitle from '../../atoms/Subtitle';
+import Title from '../../atoms/Title';
 import ImageHover from './ImageHover';
 const GallerySection = () => {
   return (
@@ -13,6 +12,7 @@ const GallerySection = () => {
 
         <div className="mx-auto text-center">
           <Title title="Favourite Places" />
+
           <Subtitle subtitle="FEATURED TOURS Views" />
         </div>
         <section className="overflow-hidden text-gray-700 ">

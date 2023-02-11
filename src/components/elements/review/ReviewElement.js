@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Description from '../atoms/Description';
+import Description from '../../atoms/Description';
 const ReviewElement = ({ item }) => {
   return (
     <div>

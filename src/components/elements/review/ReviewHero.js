@@ -1,8 +1,8 @@
 import React from 'react';
-import SliderComponent from '../elements/Slider_Hero';
+import SliderComponent from '../Slider_Hero';
 import ReviewElement from './ReviewElement';
-import Subtitle from '../atoms/Subtitle';
-import Title from '../atoms/Title';
+import Subtitle from '../../atoms/Subtitle';
+import Title from '../../atoms/Title';
 const reviewHero = [
   {
     id: 1,

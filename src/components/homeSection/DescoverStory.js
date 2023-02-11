@@ -1,7 +1,7 @@
 import React from 'react';
-import Title from '../components/atoms/Title';
-import Description from './atoms/Description';
-import Subtitle from './atoms/Subtitle';
+import Title from '../atoms/Title';
+import Description from '../atoms/Description';
+import Subtitle from '../atoms/Subtitle';
 import Image from 'next/image';
 
 import AOS from 'aos';

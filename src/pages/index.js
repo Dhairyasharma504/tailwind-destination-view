@@ -1,18 +1,21 @@
 import React from 'react';
-import Blog from '../components/Blog';
+import Blog from '../components/homeSection/Blog';
 // import DescoverStory from '../components/DescoverStory';
 
-import Guidance from '../components/Guidance';
+import Guidance from '../components/homeSection/Guidance';
 import dynamic from 'next/dynamic';
 
 import Layout from '../components/global/Layout';
-import Subscrib from '../components/Subscrib';
-import ReviewHero from '../components/review/ReviewHero';
-import GallerySection from '../components/gallery/GallerySection';
+import Subscrib from '../components/homeSection/Subscrib';
+import ReviewHero from '../components/elements/review/ReviewHero';
+import GallerySection from '../components/elements/gallery/GallerySection';
 
-const DescoverStory = dynamic(() => import('../components/DescoverStory'), {
-  ssr: false,
-});
+const DescoverStory = dynamic(
+  () => import('../components/homeSection/DescoverStory'),
+  {
+    ssr: false,
+  },
+);
 
 const index = () => {
   return (

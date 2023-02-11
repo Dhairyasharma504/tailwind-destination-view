@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Title from '../components/atoms/Title';
+import Title from '../atoms/Title';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
-import Subtitle from './atoms/Subtitle';
+import Subtitle from '../atoms/Subtitle';
 const blogs = [
   {
     title: 'Lorem ipsum dolor sit amet',
