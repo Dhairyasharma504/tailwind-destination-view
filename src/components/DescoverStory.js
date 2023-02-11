@@ -11,7 +11,7 @@ const DescoverStory = () => {
   AOS?.init();
   AOS?.refresh();
   return (
-    <div className="container mx-auto px-4 ">
+    <div className="container mx-auto px-4 pb-4 ">
       <div className="grid  md:grid-cols-2 grid-cols-1">
         <div className="flex flex-col justify-center  " data-aos="fade-down">
           <Title title="DISCOVER STORY" />
@@ -25,8 +25,8 @@ const DescoverStory = () => {
           className=""
           data-aos="fade-right"
           data-aos-duration="2000"
-          data-aos-delay="100"
-          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-offset="120"
         >
           <Image
             src="/images/traveler.jpg.webp"

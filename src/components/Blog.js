@@ -46,7 +46,7 @@ const Blog = () => {
           {blogs.map((item) => (
             <div
               key={item.id}
-              className=" group cursor-pointer rounded-lg bg-secondcolor   "
+              className=" group cursor-pointer  rounded-lg bg-secondcolor hover:shadow-lg  hover:duration-500    "
               data-aos="flip-left"
               data-aos-duration="2000"
               data-aos-offset="120"

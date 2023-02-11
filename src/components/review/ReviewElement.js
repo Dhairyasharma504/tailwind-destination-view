@@ -5,7 +5,7 @@ const ReviewElement = ({ item }) => {
   return (
     <div>
       <div className="container mx-auto px-8 ">
-        <div className="bg-brand p-12 ">
+        <div className="bg-brand  p-12 ">
           <div className="flex justify-between py-4 ">
             <div className=" flex">
               <div className="pr-6 ">
