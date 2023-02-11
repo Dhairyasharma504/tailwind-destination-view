@@ -46,15 +46,15 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? 'ease-in duration-300 fixed text-gray-300 left-0 top-0 w-full h-screen bg-brand/95 px-4 py-7 flex-col z-10'
+            ? 'ease-in duration-300 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/95 px-4 py-7 flex-col z-10'
             : 'absolute top-0 h-screen left-[-100%] ease-in duration-500 z-10'
         }
       >
-        <ul className="flex flex-col fixed w-full h-full items-center justify-center">
+        <ul className="flex flex-col fixed w-full h-full items-center justify-center ">
           {navItems.map((data) => (
             <div
               key={data.lable}
-              className="font-bold md:text-3xl text-xl p-8    "
+              className="font-bold md:text-3xl text-xl p-8  text-secondary hover:text-brand    "
             >
               <Link href={data.link}>{data.lable}</Link>
             </div>

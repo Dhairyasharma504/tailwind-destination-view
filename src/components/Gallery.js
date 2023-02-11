@@ -1,15 +1,21 @@
 import React from 'react';
+import Title from '../components/atoms/Title';
 
-import Texthero from './elements/Texthero';
+import Subtitle from './atoms/Subtitle';
 
 const Gallery = () => {
   return (
-    <div className="container mx-auto my-5">
-      <div className="mx-auto text-center ">
+    <div className="container mx-auto px-4 ">
+      {/* <div className="mx-auto text-center ">
         <Texthero title="Favourite Places" heading="FEATURED TOURS Views" />
+      </div> */}
+
+      <div className="mx-auto text-center">
+        <Title title="Favourite Places" />
+        <Subtitle subtitle="FEATURED TOURS Views" />
       </div>
       <section className="overflow-hidden text-gray-700">
-        <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+        <div className="container  mx-auto ">
           <div className="flex flex-wrap -m-1 md:-m-2">
             <div className="flex flex-wrap w-1/2">
               <div className="w-1/2 p-1 md:p-2 overflow-hidden ">

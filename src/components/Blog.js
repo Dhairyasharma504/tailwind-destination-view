@@ -11,6 +11,8 @@ const blogs = [
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.',
     link: '/',
     image: '/images/support-img.jpg.webp',
+    name: 'Dhairya',
+    createdAt: '2023 dec ',
   },
   {
     title: 'Lorem ipsum dolor sit amet',
@@ -18,6 +20,8 @@ const blogs = [
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.',
     link: '/',
     image: '/images/support-img.jpg.webp',
+    name: 'Dhairya',
+    createdAt: '2023 dec ',
   },
   {
     title: 'Lorem ipsum dolor sit amet ',
@@ -25,6 +29,8 @@ const blogs = [
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.',
     link: '/',
     image: '/images/support-img.jpg.webp',
+    name: 'Dhairya',
+    createdAt: '2023 dec ',
   },
 ];
 
@@ -67,13 +73,13 @@ const Blog = () => {
                   <div className="block p-3">
                     <div className="flex  justify-between py-3 ">
                       <p className="text-base font-light leading-4 text-secondary  mt-6 group-hover:underline">
-                        dhairya
+                        {item.name}
                       </p>
                       <p className="text-base uppercase font-light leading-4 text-gray-800  mt-6 ">
-                        6/feb/23
+                        {item.createdAt}
                       </p>
                     </div>
-                    <h3 className="truncate transition tracking-wide duration-300 font-normal leading-10  text-2xl text-darkshade hover:text-lightshade group-hover:underline">
+                    <h3 className="truncate transition tracking-wide duration-300 font-normal leading-10  text-2xl text-darkshade  group-hover:underline">
                       {item.title}
                     </h3>
                     <p className="font-normal my-3   text-primary  text-l text-base leading-7">
