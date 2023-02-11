@@ -16,10 +16,7 @@ const SliderItem = ({ item }) => (
   <HeroWrapper bgImage={item.bgImage}>
     <div className=" p-6  h-full flex flex-col justify-center items-start  w-full text-lightshade ">
       <div className="   md:w-3/4  xl:w-1/2 ">
-        <p
-          className="text-xl sm:text-2xl xl:text-5xl text-center md:text-left  font-extrabold  leading-6 xl:leading-10 text-lightshade pb-6"
-          data-aos="fade-right"
-        >
+        <p className=" text-xl md:text-4xl font-extrabold text-lightshade md:text-left text-center">
           Let&apos;s Enjoy The Wonders of {item.title}
         </p>
         <p className="mt-4  text-center md:text-left text-xl leading-normal text-lightshade">
