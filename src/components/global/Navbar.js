@@ -54,7 +54,7 @@ const Navbar = () => {
           {navItems.map((data) => (
             <div
               key={data.lable}
-              className="m-8 relative font-medium  text-lightshade text-5xl md:text-2xl hover:text-brand before:absolute before:-bottom-1 before:h-0.5 before:w-full before:scale-x-0 before:bg-brand before:transition hover:before:scale-x-100 "
+              className="m-8 relative font-medium  text-lightshade md:text-3xl text-lg hover:text-brand before:absolute before:-bottom-1 before:h-0.5 before:w-full before:scale-x-0 before:bg-brand before:transition hover:before:scale-x-100 "
             >
               <Link href={data.link}>{data.lable}</Link>
             </div>
