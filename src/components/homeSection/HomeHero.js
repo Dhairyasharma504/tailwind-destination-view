@@ -6,11 +6,11 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const data = [
-  { id: 1, bgImage: '/images/bgimage1.jpg', title: 'Nature' },
+  { id: 1, bgImage: '/images/1.png.webp', title: 'Nature' },
   { id: 1, bgImage: '/images/hero_1.jpg.webp', title: 'Travel' },
-  { id: 1, bgImage: '/images/banner.png.webp', title: 'Wedding' },
-  { id: 1, bgImage: '/images/bgimage1.jpg', title: 'Wild' },
-  { id: 1, bgImage: '/images/bgimage1.jpg', title: 'Other' },
+  { id: 1, bgImage: '/images/banner.webp', title: 'Wedding' },
+  { id: 1, bgImage: '/images/2.png.webp', title: 'Wild' },
+  { id: 1, bgImage: '/images/3.png.webp', title: 'Other' },
 ];
 const SliderItem = ({ item }) => (
   <HeroWrapper bgImage={item.bgImage}>

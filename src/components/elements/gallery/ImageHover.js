@@ -12,7 +12,7 @@ const ImageHover = ({
 }) => {
   return (
     <div className=" overflow-hidden ">
-      <Link href="#" className="group relative block bg-black">
+      <Link href="/" className="group relative block bg-black">
         <Image
           src={image}
           alt={title}

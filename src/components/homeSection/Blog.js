@@ -48,8 +48,8 @@ const Blog = () => {
               key={item.id}
               className=" group cursor-pointer  rounded-lg bg-secondcolor hover:shadow-lg  hover:duration-500    "
               data-aos="zoom-in-right"
-              data-aos-duration="2000"
-              data-aos-offset="120"
+              data-aos-duration="1500"
+              data-aos-offset="220"
             >
               <div className="mx-auto mb-10">
                 <div className=" max-h-[400px] overflow-hidden relative">
@@ -82,7 +82,7 @@ const Blog = () => {
                     <h3 className="truncate transition tracking-wide duration-300 font-normal leading-10  text-2xl text-darkshade  group-hover:underline">
                       {item.title}
                     </h3>
-                    <p className="font-normal my-3   text-primary  text-l text-base leading-7">
+                    <p className="font-normal my-3   text-primary text-base leading-7">
                       {item.description}
                     </p>
                   </div>
