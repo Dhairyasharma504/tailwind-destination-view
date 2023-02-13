@@ -47,12 +47,12 @@ const Blog = () => {
             <div
               key={item.id}
               className=" group cursor-pointer  rounded-lg bg-secondcolor hover:shadow-lg  hover:duration-500    "
-              data-aos="flip-left"
+              data-aos="zoom-in-right"
               data-aos-duration="2000"
               data-aos-offset="120"
             >
               <div className="mx-auto mb-10">
-                <div className=" max-h-[450px] overflow-hidden relative">
+                <div className=" max-h-[400px] overflow-hidden relative">
                   <div className=" overflow-hidden">
                     <Image
                       src={item.image}

@@ -6,7 +6,7 @@ import Title from '../../atoms/Title';
 const reviewHero = [
   {
     id: 1,
-    name: 'Happy',
+    name: 'samual',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.',
     createdAt: '20 aug',
@@ -14,7 +14,7 @@ const reviewHero = [
   },
   {
     id: 1,
-    name: 'vishal',
+    name: 'prabh',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.',
     createdAt: '20 aug',
@@ -22,7 +22,7 @@ const reviewHero = [
   },
   {
     id: 2,
-    name: 'vishal',
+    name: 'harry',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.',
     createdAt: '24 dec',
@@ -30,7 +30,7 @@ const reviewHero = [
   },
   {
     id: 3,
-    name: 'dhairya',
+    name: 'lucifer',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.',
     createdAt: '30 aug',

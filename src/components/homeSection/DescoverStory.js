@@ -16,9 +16,9 @@ const DescoverStory = () => {
         <div
           className="flex flex-col justify-center  "
           data-aos="zoom-in-up"
-          data-aos-duration="2000"
-          data-aos-delay="200"
-          data-aos-offset="120"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          data-aos-offset="100"
         >
           <Title title="DISCOVER STORY" />
           <Subtitle subtitle="Our Story" />
