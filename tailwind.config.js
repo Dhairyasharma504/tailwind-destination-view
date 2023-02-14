@@ -14,8 +14,7 @@ module.exports = {
         lightshade: '#ffffff',
       }),
       fontFamily: ({ theme }) => ({
-        primary: 'Roboto, sans-serif',
-        secondary: 'Satisfy, cursive',
+        primary: 'Raleway, sans-serif',
       }),
     },
   },

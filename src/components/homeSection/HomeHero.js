@@ -6,15 +6,14 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const data = [
-  { id: 1, bgImage: '/images/1.png.webp', title: 'Nature' },
-  { id: 1, bgImage: '/images/hero_1.jpg.webp', title: 'Travel' },
+  { id: 1, bgImage: '/images/bg_1.jpg.webp', title: 'Nature' },
+  { id: 1, bgImage: '/images/gallery-1.jpg.webp', title: 'Travel' },
   { id: 1, bgImage: '/images/banner.webp', title: 'Wedding' },
   { id: 1, bgImage: '/images/2.png.webp', title: 'Wild' },
-  { id: 1, bgImage: '/images/3.png.webp', title: 'Other' },
 ];
 const SliderItem = ({ item }) => (
   <HeroWrapper bgImage={item.bgImage}>
-    <div className="bg-black/25 md:h-[80vh] h-[100vh]">
+    <div className="bg-black/40 md:h-[80vh] h-[100vh]">
       <div className="  p-6  h-full flex flex-col justify-center items-start  w-full text-lightshade ">
         <div
           className="md:w-3/4  xl:w-1/2  "

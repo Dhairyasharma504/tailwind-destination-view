@@ -45,7 +45,7 @@ const GallerySection = () => {
                     title="himachal"
                     subtitle=" FEATURED TOURS "
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur."
-                    image="/images/h1_hero.jpg.webp"
+                    image="/images/bg_1.jpg.webp"
                     width={400}
                     height={400}
                   />
@@ -57,7 +57,7 @@ const GallerySection = () => {
                     title="himachal"
                     subtitle=" FEATURED TOURS"
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur."
-                    image="/images/services3.jpg.webp"
+                    image="/images/promoView.webp"
                     width={400}
                     height={400}
                   />
@@ -67,7 +67,7 @@ const GallerySection = () => {
                     title="himachal"
                     subtitle=" FEATURED TOURS "
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur."
-                    image="/images/services6.jpg.webp"
+                    image="/images/bg_1.jpg.webp"
                     width={400}
                     height={400}
                   />
@@ -77,7 +77,7 @@ const GallerySection = () => {
                     title="himachal"
                     subtitle=" FEATURED TOURS "
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur."
-                    image="/images/services1.jpg.webp"
+                    image="/images/gallery-1.jpg.webp"
                     width={400}
                     height={400}
                   />

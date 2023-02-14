@@ -32,9 +32,11 @@ const index = () => {
         {/* <Pricing /> */}
 
         <DescoverStory />
-        <Guidance />
+
         <GallerySection />
+
         <Blog />
+        <Guidance />
         <Promo />
         <ReviewHero />
         {/* <Team /> */}

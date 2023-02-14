@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroWrapper = ({ bgImage, isSmall, children }) => {
   return (
-    <div>
+    <div className="pb-10">
       <div
         style={{
           backgroundImage: `url(${
