@@ -12,6 +12,7 @@ import GallerySection from '../components/elements/gallery/GallerySection';
 import Promo from '../components/elements/Promo';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Subscribe from '../components/Subscribe';
 
 const DescoverStory = dynamic(
   () => import('../components/homeSection/DescoverStory'),
@@ -40,7 +41,8 @@ const index = () => {
         <Promo />
         <ReviewHero />
         {/* <Team /> */}
-        <Subscrib />
+        {/* <Subscrib /> */}
+        <Subscribe />
       </Layout>
     </div>
   );

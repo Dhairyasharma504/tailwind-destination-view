@@ -248,7 +248,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-lightshade transition hover:opacity-75"
+                    className="text-lightshade transition hover:opacity-75 hover:text-brand"
                   >
                     <span className="sr-only">Facebook</span>
 
@@ -272,7 +272,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-lightshade transition hover:opacity-75"
+                    className="text-lightshade transition hover:opacity-75 hover:text-brand"
                   >
                     <span className="sr-only">Instagram</span>
 
@@ -296,7 +296,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-lightshade transition hover:opacity-75"
+                    className="text-lightshade transition hover:opacity-75 hover:text-brand"
                   >
                     <span className="sr-only">Twitter</span>
 
@@ -316,7 +316,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-lightshade transition hover:opacity-75"
+                    className="text-lightshade transition hover:opacity-75 hover:text-brand"
                   >
                     <span className="sr-only">GitHub</span>
 
@@ -340,7 +340,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-lightshade transition hover:opacity-75"
+                    className="text-lightshade transition hover:opacity-75 hover:text-brand"
                   >
                     <span className="sr-only">Dribbble</span>
 
@@ -363,7 +363,7 @@ const Footer = () => {
 
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
-                <p className="font-medium text-lightshade">Services</p>
+                <p className="font-medium text-brand">Services</p>
 
                 <nav aria-label="Footer Navigation - Services" className="mt-6">
                   <ul className="space-y-4 text-sm">
@@ -384,39 +384,12 @@ const Footer = () => {
                         destination view
                       </Link>
                     </li>
-
-                    <li>
-                      <Link
-                        href="#"
-                        className="text-lightshade transition hover:opacity-75"
-                      >
-                        Accounts Review
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link
-                        href="#"
-                        className="text-lightshade transition hover:opacity-75"
-                      >
-                        HR Consulting
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link
-                        href="#"
-                        className="text-lightshade transition hover:opacity-75"
-                      >
-                        SEO Optimisation
-                      </Link>
-                    </li>
                   </ul>
                 </nav>
               </div>
 
               <div>
-                <p className="font-medium text-lightshade">Company</p>
+                <p className="font-medium text-brand">Company</p>
 
                 <nav aria-label="Footer Navigation - Company" className="mt-6">
                   <ul className="space-y-4 text-sm">

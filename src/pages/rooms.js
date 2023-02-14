@@ -7,7 +7,7 @@ import MockupRom from '../components/roomSection/MockupRom';
 
 const rooms = () => {
   return (
-    <Layout heroBgImage="/images/2.png.webp">
+    <Layout heroBgImage="/images/gallery-1.jpg.webp">
       <RoomCard />
       <MockupRom />
       <Promo />

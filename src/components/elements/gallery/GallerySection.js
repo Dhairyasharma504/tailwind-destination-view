@@ -67,7 +67,7 @@ const GallerySection = () => {
                     title="himachal"
                     subtitle=" FEATURED TOURS "
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur."
-                    image="/images/bg_1.jpg.webp"
+                    image="/images/gallery-3.jpg.webp"
                     width={400}
                     height={400}
                   />
