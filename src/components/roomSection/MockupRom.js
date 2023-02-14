@@ -17,7 +17,10 @@ const MockupRom = () => {
         </div>
         <div className=" bg-lightshade w-full text-center p-4 space-y-8 flex flex-col justify-center">
           <Title title="Take advantage of our seasonal specials." />
-          <Subtitle subtitle="The concept and service of the best luxury hotels in Asturias in our sophisticated Urban Double and Unique Junior Suite rooms, with the possibility of enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft Suite."></Subtitle>
+          <Subtitle
+            hasTextblack
+            subtitle="The concept and service of the best luxury hotels in Asturias in our sophisticated Urban Double and Unique Junior Suite rooms, with the possibility of enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft Suite."
+          ></Subtitle>
         </div>
       </div>
     </div>

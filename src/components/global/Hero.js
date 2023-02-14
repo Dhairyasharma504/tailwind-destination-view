@@ -8,7 +8,7 @@ const Hero = ({ bgImage }) => {
   console.log('router', router);
   return (
     <HeroWrapper bgImage={bgImage} isSmall>
-      <div className="bg-black/25 md:h-[50vh] h-[50vh]">
+      <div className="bg-black/25 md:h-[65vh] h-[65vh]">
         <div className="  max-w-xl -z-10 space-y-6  sm:text-center text-center mx-auto">
           <p className="pt-48 pl-16 text-lg font-semibold  font-primary opacity-90  text-secondary">
             <Link href="/">Home &gt;</Link>

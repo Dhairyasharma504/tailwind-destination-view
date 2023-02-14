@@ -9,6 +9,7 @@ import Layout from '../components/global/Layout';
 import Subscrib from '../components/homeSection/Subscrib';
 import ReviewHero from '../components/elements/review/ReviewHero';
 import GallerySection from '../components/elements/gallery/GallerySection';
+import Promo from '../components/elements/Promo';
 
 const DescoverStory = dynamic(
   () => import('../components/homeSection/DescoverStory'),
@@ -25,6 +26,7 @@ const index = () => {
         <DescoverStory /> <Guidance />
         <GallerySection />
         <Blog />
+        <Promo />
         <ReviewHero />
         {/* <Team /> */}
         <Subscrib />

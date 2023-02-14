@@ -24,7 +24,7 @@ const ItemData = [
 
 const Guidance = () => {
   return (
-    <div className="container mx-auto px-4 max-w-fit  pb-10 ">
+    <div className="container mx-auto px-4 max-w-fit  py-5 ">
       <div className="grid  md:grid-cols-4  grid-cols-1 gap-8   mx-auto">
         {ItemData.map((data) => (
           <div

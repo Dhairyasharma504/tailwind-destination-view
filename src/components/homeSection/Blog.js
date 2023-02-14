@@ -47,9 +47,6 @@ const Blog = () => {
             <div
               key={item.id}
               className=" group cursor-pointer  rounded-lg bg-secondcolor hover:shadow-lg  hover:duration-500    "
-              data-aos="zoom-in-right"
-              data-aos-duration="1500"
-              data-aos-offset="220"
             >
               <div className="mx-auto mb-10">
                 <div className=" max-h-[400px] overflow-hidden relative">
