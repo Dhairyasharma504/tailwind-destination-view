@@ -4,12 +4,7 @@ import Description from '../atoms/Description';
 import Subtitle from '../atoms/Subtitle';
 import Image from 'next/image';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 const DescoverStory = () => {
-  AOS?.init();
-  AOS?.refresh();
   return (
     <div className="container mx-auto px-4 pb-4 ">
       <div className="grid  md:grid-cols-2 grid-cols-1">
@@ -35,7 +30,7 @@ const DescoverStory = () => {
           data-aos-offset="120"
         >
           <Image
-            src="/images/traveler.jpg.webp"
+            src="/images/pic.png"
             alt="Picture of the author"
             width={500}
             height={500}

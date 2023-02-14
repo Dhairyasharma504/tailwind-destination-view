@@ -21,10 +21,10 @@ const GallerySection = () => {
               <div className="flex flex-wrap md:w-1/2 w-full">
                 <div className="md:w-1/2 w-full p-1 md:p-2 overflow-hidden  ">
                   <ImageHover
-                    title="himachal"
+                    title="Bar"
                     subtitle=" FEATURED TOURS "
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur."
-                    image="/images/home-blog2.jpg"
+                    image="/images/view1.webp"
                     width={400}
                     height={400}
                   />
@@ -35,7 +35,7 @@ const GallerySection = () => {
                     title="himachal"
                     subtitle=" FEATURED TOURS "
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur."
-                    image="/images/home-blog1.jpg"
+                    image="/images/view2.webp"
                     width={400}
                     height={600}
                   />

@@ -46,7 +46,7 @@ const Blog = () => {
           {blogs.map((item) => (
             <div
               key={item.id}
-              className=" group cursor-pointer  rounded-lg    hover:duration-500    "
+              className=" group cursor-pointer  rounded-lg    hover:duration-500     "
             >
               <div className="mx-auto mb-10">
                 <div className=" max-h-[400px] overflow-hidden relative">
@@ -69,7 +69,7 @@ const Blog = () => {
                 <div className="px-2 py-5 relative  group-hover:bg-gray-100/70 duration-700 delay-200 ">
                   <div className="block p-3">
                     <div className="flex  justify-between py-3 ">
-                      <p className="text-base font-light leading-4 text-secondary  mt-6 group-hover:underline">
+                      <p className="text-base font-light leading-4 mt-6 group-hover:underline">
                         {item.name}
                       </p>
                       <p className="text-base uppercase font-light leading-4 text-gray-800  mt-6 ">

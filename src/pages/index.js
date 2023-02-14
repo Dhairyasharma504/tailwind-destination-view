@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Blog from '../components/homeSection/Blog';
 // import DescoverStory from '../components/DescoverStory';
 
@@ -10,6 +10,8 @@ import Subscrib from '../components/homeSection/Subscrib';
 import ReviewHero from '../components/elements/review/ReviewHero';
 import GallerySection from '../components/elements/gallery/GallerySection';
 import Promo from '../components/elements/Promo';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const DescoverStory = dynamic(
   () => import('../components/homeSection/DescoverStory'),
@@ -19,11 +21,18 @@ const DescoverStory = dynamic(
 );
 
 const index = () => {
+  useEffect(() => {
+    AOS?.init();
+    AOS?.refresh();
+  }, []);
+
   return (
     <div>
       <Layout isHome>
         {/* <Pricing /> */}
-        <DescoverStory /> <Guidance />
+
+        <DescoverStory />
+        <Guidance />
         <GallerySection />
         <Blog />
         <Promo />
