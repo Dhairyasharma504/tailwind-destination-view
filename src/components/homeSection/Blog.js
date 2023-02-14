@@ -46,7 +46,7 @@ const Blog = () => {
           {blogs.map((item) => (
             <div
               key={item.id}
-              className=" group cursor-pointer  rounded-lg bg-secondcolor hover:shadow-lg  hover:duration-500    "
+              className=" group cursor-pointer  rounded-lg    hover:duration-500    "
             >
               <div className="mx-auto mb-10">
                 <div className=" max-h-[400px] overflow-hidden relative">
@@ -66,7 +66,7 @@ const Blog = () => {
                   </div>
                 </div>
 
-                <div className="p-2 relative  ">
+                <div className="px-2 py-5 relative  group-hover:bg-gray-100/70 duration-700 delay-200 ">
                   <div className="block p-3">
                     <div className="flex  justify-between py-3 ">
                       <p className="text-base font-light leading-4 text-secondary  mt-6 group-hover:underline">
@@ -91,13 +91,6 @@ const Blog = () => {
                       <p className="text-base font-medium leading-4 text-white ">
                         Read more
                       </p>
-                      {/* <Image
-                        className="dark:hidden"
-                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-IV-svg1.svg"
-                        alt="arrow"
-                        width={20}
-                        height={20}
-                      /> */}
 
                       <HiOutlineArrowNarrowRight className=" text-lightshade items-center" />
                     </Link>

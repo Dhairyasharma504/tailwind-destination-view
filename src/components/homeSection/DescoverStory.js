@@ -18,7 +18,7 @@ const DescoverStory = () => {
           data-aos="zoom-in-up"
           data-aos-duration="1000"
           data-aos-delay="100"
-          data-aos-offset="100"
+          data-aos-offset="20"
         >
           <Title title="DISCOVER STORY" />
           <Subtitle subtitle="Our Story" />

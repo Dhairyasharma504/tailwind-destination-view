@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Hero = ({ bgImage }) => {
   const router = useRouter();
-  console.log('router', router);
+  // console.log('router', router);
   return (
     <HeroWrapper bgImage={bgImage} isSmall>
       <div className="bg-black/25 md:h-[65vh] h-[65vh]">
