@@ -61,14 +61,15 @@ const Subscribe = () => {
           <Image
             src="/images/bg_1.jpg.webp"
             alt="Picture of the author"
-            width={500}
-            height={500}
+            width={900}
+            height={300}
             className="w-full h-full absolute z-10"
           />
 
-          <div className=" bg-primary bg-opacity-80 md:my-16 lg:py-16 py-10 w-full md:mx-24 md:px-12 px-4 flex flex-col items-center justify-center relative z-40">
+          <div className=" bg-gray-800/80 md:my-16 lg:py-16 py-10 w-full md:mx-24 md:px-12 px-4 flex flex-col items-center justify-center relative z-40">
             <Title hastextwhite title="Don’t miss out!"></Title>
             <Description
+              hastextwhite
               text="Subscribe to your newsletter to stay in the loop. Our newsletter
               is sent once in  a week on every friday so subscribe to get
               latest news and updates."
