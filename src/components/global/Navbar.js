@@ -16,8 +16,8 @@ const navItems = [
     link: '/about',
   },
   {
-    lable: 'Amenities',
-    link: '/',
+    lable: 'contact',
+    link: '/contact',
   },
   {
     lable: 'Rooms',

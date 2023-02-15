@@ -2,10 +2,10 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 
-const Card = ({ image, alt, width, height, label, typeRoom }) => {
+const Card = ({ item, image, alt, width, height, label, typeRoom }) => {
   return (
     <div>
-      <Link href="/">
+      <Link href={`/room/${item.id}`}>
         <div className="flex flex-col">
           <div className="flex flex-col justify-center">
             <div className="relative">
