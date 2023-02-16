@@ -1,9 +1,9 @@
-import React from 'react';
-import Image from 'next/image';
-import Subtitle from '../atoms/Subtitle';
-import Title from '../atoms/Title';
+import React from "react";
+import Image from "next/image";
+import Subtitle from "../atoms/Subtitle";
+import Title from "../atoms/Title";
 
-const MockupRom = () => {
+function MockupRom() {
   return (
     <div className="container mx-auto px-4 p-20 ">
       <div className=" grid md:grid-cols-2 grid-cols-1 max-w-screen-lg mx-auto">
@@ -20,11 +20,11 @@ const MockupRom = () => {
           <Subtitle
             hasTextblack
             subtitle="The concept and service of the best luxury hotels in Asturias in our sophisticated Urban Double and Unique Junior Suite rooms, with the possibility of enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft Suite."
-          ></Subtitle>
+          />
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default MockupRom;

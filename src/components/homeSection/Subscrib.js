@@ -1,6 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
-const Subscrib = () => {
+import React from "react";
+import Image from "next/image";
+
+function Subscrib() {
   return (
     <div className=" container mx-auto px-8">
       <div className="xl:flex items-center 2xl:mx-auto 2xl:container py-16 sm:mx-20 ">
@@ -24,7 +25,10 @@ const Subscrib = () => {
                 placeholder="Enter your email address here"
               />
             </div>
-            <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-black text-base font-medium leading-none text-white py-4 px-6 bg-gray-800 sm:ml-2 sm:w-auto w-full sm:mt-0 mt-4  ">
+            <button
+              type="button"
+              className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-black text-base font-medium leading-none text-white py-4 px-6 bg-gray-800 sm:ml-2 sm:w-auto w-full sm:mt-0 mt-4  "
+            >
               Subscribe
             </button>
           </div>
@@ -48,6 +52,6 @@ const Subscrib = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Subscrib;

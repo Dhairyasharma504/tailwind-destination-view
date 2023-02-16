@@ -1,7 +1,8 @@
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
-const ImageHover = ({
+import Link from "next/link";
+import React from "react";
+import Image from "next/image";
+
+function ImageHover({
   title,
   subtitle,
   description,
@@ -9,7 +10,7 @@ const ImageHover = ({
   alt,
   width,
   height,
-}) => {
+}) {
   return (
     <div className=" overflow-hidden ">
       <Link href="/" className="group relative block bg-black">
@@ -42,6 +43,6 @@ const ImageHover = ({
       </Link>
     </div>
   );
-};
+}
 
 export default ImageHover;

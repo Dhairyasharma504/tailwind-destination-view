@@ -1,10 +1,10 @@
-import React from 'react';
-import Title from '../atoms/Title';
-import Description from '../atoms/Description';
-import Subtitle from '../atoms/Subtitle';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
+import Title from "../atoms/Title";
+import Description from "../atoms/Description";
+import Subtitle from "../atoms/Subtitle";
 
-const DescoverStory = () => {
+function DescoverStory() {
   return (
     <div className="container mx-auto px-4 pb-4 ">
       <div className="grid  md:grid-cols-2 grid-cols-1">
@@ -39,6 +39,6 @@ const DescoverStory = () => {
       </div>
     </div>
   );
-};
+}
 
 export default DescoverStory;

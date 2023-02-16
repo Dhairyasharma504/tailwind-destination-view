@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const SliderComponent = (props) => {
+function SliderComponent(props) {
   const settings = {
     dots: false,
     infinite: true,
@@ -50,5 +50,5 @@ const SliderComponent = (props) => {
       </Slider>
     </div>
   );
-};
+}
 export default SliderComponent;

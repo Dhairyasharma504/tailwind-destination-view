@@ -1,10 +1,11 @@
-import React from 'react';
-import Card from './Card';
-import Title from '../atoms/Title';
+import React from "react";
+import Card from "./Card";
+import Title from "../atoms/Title";
 
-import Subtitle from '../atoms/Subtitle';
-import { rooms } from '../../utils/data';
-const RoomCard = () => {
+import Subtitle from "../atoms/Subtitle";
+import { rooms } from "../../utils/data";
+
+function RoomCard() {
   return (
     <div className="container mx-auto p-4">
       <div className="mx-auto text-center">
@@ -28,6 +29,6 @@ const RoomCard = () => {
       </div>
     </div>
   );
-};
+}
 
 export default RoomCard;

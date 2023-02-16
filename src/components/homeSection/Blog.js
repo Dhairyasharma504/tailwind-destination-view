@@ -1,40 +1,41 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import Title from '../atoms/Title';
-import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
-import Subtitle from '../atoms/Subtitle';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import Title from "../atoms/Title";
+import Subtitle from "../atoms/Subtitle";
+
 const blogs = [
   {
-    title: 'Lorem ipsum dolor sit amet',
+    title: "Lorem ipsum dolor sit amet",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.',
-    link: '/',
-    image: '/images/support-img.jpg.webp',
-    name: 'Dhairya',
-    createdAt: '2023 dec ',
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.",
+    link: "/",
+    image: "/images/support-img.jpg.webp",
+    name: "Dhairya",
+    createdAt: "2023 dec ",
   },
   {
-    title: 'Lorem ipsum dolor sit amet',
+    title: "Lorem ipsum dolor sit amet",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.',
-    link: '/',
-    image: '/images/support-img.jpg.webp',
-    name: 'Dhairya',
-    createdAt: '2023 dec ',
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.",
+    link: "/",
+    image: "/images/support-img.jpg.webp",
+    name: "Dhairya",
+    createdAt: "2023 dec ",
   },
   {
-    title: 'Lorem ipsum dolor sit amet ',
+    title: "Lorem ipsum dolor sit amet ",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.',
-    link: '/',
-    image: '/images/support-img.jpg.webp',
-    name: 'Dhairya',
-    createdAt: '2023 dec ',
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.",
+    link: "/",
+    image: "/images/support-img.jpg.webp",
+    name: "Dhairya",
+    createdAt: "2023 dec ",
   },
 ];
 
-const Blog = () => {
+function Blog() {
   return (
     <div>
       <div className="mx-auto container my-8   relative px-2">
@@ -103,6 +104,6 @@ const Blog = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Blog;

@@ -1,25 +1,34 @@
-import React from 'react';
-import HeroWrapper from './HeroWrapper';
-import { useRouter } from 'next/router';
-import Link from 'next/link';
+import React from "react";
+import { TfiHome } from "react-icons/tfi";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import HeroWrapper from "./HeroWrapper";
 
-const Hero = ({ bgImage }) => {
+function Hero({ bgImage }) {
   const router = useRouter();
   // console.log('router', router);
   return (
     <HeroWrapper bgImage={bgImage} isSmall>
-      <div className="bg-black/40 md:h-[65vh] h-[65vh]">
-        <div className="  max-w-xl -z-10 space-y-6  sm:text-center text-center mx-auto">
-          <p className="pt-48 pl-16 text-lg font-semibold  font-primary opacity-90">
-            <Link href="/">Home &gt; </Link>
-            <span className="capitalize text-lightshade ">
-              {router?.asPath?.replace('/', '')}
-            </span>
+      <div className="bg-black/40 md:h-[65vh] h-[65vh] ">
+        <div className=" ">
+          <p className="  ">
+            <div className="  ">
+              <div className="  flex  justify-center">
+                <span className=" text-lightshade">
+                  <TfiHome className=" text-lightshade w-6 h-6" />
+                </span>
+                <span> Home &gt;</span>
+
+                <span className="capitalize text-lightshade ">
+                  {router?.asPath?.replace("/", "")}
+                </span>
+              </div>
+            </div>
           </p>
         </div>
       </div>
     </HeroWrapper>
   );
-};
+}
 
 export default Hero;

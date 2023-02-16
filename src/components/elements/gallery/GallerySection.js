@@ -1,8 +1,9 @@
-import React from 'react';
-import Subtitle from '../../atoms/Subtitle';
-import Title from '../../atoms/Title';
-import ImageHover from './ImageHover';
-const GallerySection = () => {
+import React from "react";
+import Subtitle from "../../atoms/Subtitle";
+import Title from "../../atoms/Title";
+import ImageHover from "./ImageHover";
+
+function GallerySection() {
   return (
     <div>
       <div className="container mx-auto px-4  pb-8  ">
@@ -89,6 +90,6 @@ const GallerySection = () => {
       </div>
     </div>
   );
-};
+}
 
 export default GallerySection;

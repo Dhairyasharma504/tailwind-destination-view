@@ -48,12 +48,12 @@
 
 // export default Subscribe;
 
-import React from 'react';
-import Description from './atoms/Description';
-import Title from './atoms/Title';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
+import Description from "./atoms/Description";
+import Title from "./atoms/Title";
 
-const Subscribe = () => {
+function Subscribe() {
   return (
     <div>
       <div className="2xl:mx-auto 2xl:container mx-4 py-16">
@@ -67,7 +67,7 @@ const Subscribe = () => {
           />
 
           <div className=" bg-gray-800/80 md:my-16 lg:py-16 py-10 w-full md:mx-24 md:px-12 px-4 flex flex-col items-center justify-center relative z-40">
-            <Title hastextwhite title="Don’t miss out!"></Title>
+            <Title hastextwhite title="Don’t miss out!" />
             <Description
               hastextwhite
               text="Subscribe to your newsletter to stay in the loop. Our newsletter
@@ -79,7 +79,10 @@ const Subscribe = () => {
                 className="border border-white sm:border-transparent text-base w-full font-medium leading-none text-white p-4 focus:outline-none bg-transparent placeholder-white"
                 placeholder="Email Address"
               />
-              <button className="focus:outline-none focus:ring-offset-2 focus:ring border border-white sm:border-transparent w-full sm:w-auto bg-white py-4 px-6 hover:bg-opacity-75">
+              <button
+                type="button"
+                className="focus:outline-none focus:ring-offset-2 focus:ring border border-white sm:border-transparent w-full sm:w-auto bg-white py-4 px-6 hover:bg-opacity-75"
+              >
                 Subscribe
               </button>
             </div>
@@ -88,6 +91,6 @@ const Subscribe = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Subscribe;

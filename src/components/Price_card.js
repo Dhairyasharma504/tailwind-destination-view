@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Price_card = ({ item }) => {
+function PriceCard({ item }) {
   return (
     <div className="px-4">
       <div className=" min-w-full p-8 bg-secondcolor ">
@@ -14,12 +14,15 @@ const Price_card = ({ item }) => {
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts.
         </p>
-        <button className="secondary-button mx-auto mt-7 py-3 shadow-sm border border-darkshade w-1/2 hover:bg-brand hover:border-brand hover:text-secondcolor ">
+        <button
+          type="button"
+          className="secondary-button mx-auto mt-7 py-3 shadow-sm border border-darkshade w-1/2 hover:bg-brand hover:border-brand hover:text-secondcolor "
+        >
           get Started
         </button>
       </div>
     </div>
   );
-};
+}
 
-export default Price_card;
+export default PriceCard;

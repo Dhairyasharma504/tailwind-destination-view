@@ -1,9 +1,10 @@
-import React from 'react';
-import ButtonPrimary from '../atoms/ButtonPrimary';
-const Promo = () => {
+import React from "react";
+import ButtonPrimary from "../atoms/ButtonPrimary";
+
+function Promo() {
   return (
     <div className="  pb-10">
-      <div class="bg-[url('/images/promoView.webp')] bg-cover bg-no-repeat bg-fixed ">
+      <div className="bg-[url('/images/promoView.webp')] bg-cover bg-no-repeat bg-fixed ">
         <div className=" grid md:grid-cols-2 grid-cols-1 gap-3  mx-auto py-24 px-10">
           <div className=" text-4xl font-semibold capitalize text-lightshade md:text-left text-center ">
             <span>Summer Promo 50% Off</span>
@@ -20,6 +21,6 @@ const Promo = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Promo;

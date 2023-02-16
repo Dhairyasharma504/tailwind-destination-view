@@ -1,28 +1,28 @@
-import React from 'react';
-import { CiCreditCard1 } from 'react-icons/ci';
-import { GiEgyptianProfile, GiThumbUp } from 'react-icons/gi';
-import { SiYourtraveldottv } from 'react-icons/si';
+import React from "react";
+import { CiCreditCard1 } from "react-icons/ci";
+import { GiEgyptianProfile, GiThumbUp } from "react-icons/gi";
+import { SiYourtraveldottv } from "react-icons/si";
 
 const ItemData = [
   {
-    icon: <GiEgyptianProfile></GiEgyptianProfile>,
-    text: '8000+ our local Guidance',
+    icon: <GiEgyptianProfile />,
+    text: "8000+ our local Guidance",
   },
   {
-    icon: <CiCreditCard1></CiCreditCard1>,
-    text: '100% Trusted Tour',
+    icon: <CiCreditCard1 />,
+    text: "100% Trusted Tour",
   },
   {
-    icon: <SiYourtraveldottv></SiYourtraveldottv>,
-    text: '28+ Years of Travel',
+    icon: <SiYourtraveldottv />,
+    text: "28+ Years of Travel",
   },
   {
-    icon: <GiThumbUp></GiThumbUp>,
-    text: '98% Our Travelers',
+    icon: <GiThumbUp />,
+    text: "98% Our Travelers",
   },
 ];
 
-const Guidance = () => {
+function Guidance() {
   return (
     <div className="container mx-auto px-4 max-w-fit pb-10 ">
       <div className="grid  md:grid-cols-4  grid-cols-1 gap-8   mx-auto">
@@ -44,6 +44,6 @@ const Guidance = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Guidance;

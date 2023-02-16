@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
+import Link from "next/link";
+import React from "react";
+import Image from "next/image";
 
-const Card = ({ item, image, alt, width, height, label, typeRoom }) => {
+function Card({ item, image, alt, width, height, label, typeRoom }) {
   return (
     <div>
       <Link href={`/room/${item.id}`}>
@@ -28,6 +28,6 @@ const Card = ({ item, image, alt, width, height, label, typeRoom }) => {
       </Link>
     </div>
   );
-};
+}
 
 export default Card;

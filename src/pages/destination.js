@@ -1,9 +1,9 @@
-import React from 'react';
-import Layout from '../components/global/Layout';
-import ReviewHero from '../components/elements/review/ReviewHero';
-import GallerySection from '../components/elements/gallery/GallerySection';
-import Guidance from '../../src/components/homeSection/Guidance';
-import Promo from '../components/elements/Promo';
+import React from "react";
+import Layout from "../components/global/Layout";
+import ReviewHero from "../components/elements/review/ReviewHero";
+import GallerySection from "../components/elements/gallery/GallerySection";
+import Guidance from "../components/homeSection/Guidance";
+import Promo from "../components/elements/Promo";
 
 const destination = () => {
   return (
