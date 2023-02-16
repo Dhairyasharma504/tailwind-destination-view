@@ -4,7 +4,7 @@ function Subtitle({ subtitle, hasTextblack }) {
   return (
     <div
       className={`text-base font-normal font-primary uppercase py-5 leading-loose ${
-        hasTextblack ? " text-darkshade" : "text-brand"
+        hasTextblack ? " text-darkShade" : "text-brand"
       } `}
     >
       {subtitle}

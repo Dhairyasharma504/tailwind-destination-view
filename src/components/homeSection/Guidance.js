@@ -35,7 +35,7 @@ function Guidance() {
               <div className=" mx-auto text-7xl pt-9 text-primary flex justify-center group-hover:text-brand  ">
                 {data.icon}
               </div>
-              <h3 className=" font-medium  mb-8 mt-8   text-center text-lg text-darkshade group-hover:text-brand">
+              <h3 className=" font-medium  mb-8 mt-8   text-center text-lg text-darkShade group-hover:text-brand">
                 {data.text}
               </h3>
             </div>

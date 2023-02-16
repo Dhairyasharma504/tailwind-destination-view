@@ -11,16 +11,19 @@ function Rooms({ room }) {
 
   return (
     <div>
-      <div className="container mx-auto">
-        <div className=" flex mx-auto">
-          <Image src={room?.image} alt={room?.alt} width={600} height={600} />
+      <Layout pageName={room?.typeRoom}>
+        <div className="container mx-auto">
+          <div className=" flex mx-auto  justify-center">
+            <Image src={room?.image} alt={room?.alt} width={600} height={600} />
+          </div>
+          <div className=" max-auto items-center flex flex-col ">
+            <Title title={room?.typeRoom} />
+            <Description text={room?.description} />
+            <Title title="Related Rooms" />
+            {/* <RoomCard /> */}
+          </div>
         </div>
-        <Title title={room?.typeRoom} />
-        <Description text={room?.description} />
-        <Title title="Related Rooms" />
-        {/* <RoomCard /> */}
-      </div>
-      <Footer />
+      </Layout>
     </div>
   );
 }

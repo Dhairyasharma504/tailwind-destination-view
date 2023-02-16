@@ -4,26 +4,21 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import HeroWrapper from "./HeroWrapper";
 
-function Hero({ bgImage }) {
+function Hero({ pageName, bgImage }) {
   const router = useRouter();
-  // console.log('router', router);
+  console.log("router", router);
   return (
     <HeroWrapper bgImage={bgImage} isSmall>
       <div className="bg-black/40 md:h-[65vh] h-[65vh] ">
-        <div className=" ">
-          <p className="  ">
-            <div className="  ">
-              <div className="  flex  justify-center">
-                <span className=" text-lightshade">
-                  <TfiHome className=" text-lightshade w-6 h-6" />
-                </span>
-                <span> Home &gt;</span>
-
-                <span className="capitalize text-lightshade ">
-                  {router?.asPath?.replace("/", "")}
-                </span>
-              </div>
-            </div>
+        <div className="h-full flex justify-center items-center">
+          <p className="text-lightShade  flex  justify-center items-center">
+            <span className="  mr-1">
+              <TfiHome className=" w-5 h-5" />
+            </span>
+            <span> Home &gt;</span>
+            <span className="ml-1 capitalize">
+              {pageName || router?.asPath?.replace("/", "")}
+            </span>{" "}
           </p>
         </div>
       </div>

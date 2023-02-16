@@ -19,13 +19,13 @@ function ReviewElement({ item }) {
                 />
               </div>
               <div>
-                <h4 className="font-bold  text-darkshade">{item.name}</h4>
-                <span className="text-xs  text-darkshade">
+                <h4 className="font-bold  text-darkShade">{item.name}</h4>
+                <span className="text-xs  text-darkShade">
                   {item.createdAt}
                 </span>
               </div>
             </div>
-            <div className=" text-lightshade">
+            <div className=" text-lightShade">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"

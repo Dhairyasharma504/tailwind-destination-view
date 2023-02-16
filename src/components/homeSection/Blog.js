@@ -61,7 +61,7 @@ function Blog() {
                     />
                   </div>
                   <div className="bg-brand absolute top-0 left-0">
-                    <p className="text-base leading-4 py-3 px-5  text-lightshade  ">
+                    <p className="text-base leading-4 py-3 px-5  text-lightShade  ">
                       topic
                     </p>
                   </div>
@@ -77,7 +77,7 @@ function Blog() {
                         {item.createdAt}
                       </p>
                     </div>
-                    <h3 className="truncate transition tracking-wide duration-300 font-normal leading-10  text-2xl text-darkshade  group-hover:underline">
+                    <h3 className="truncate transition tracking-wide duration-300 font-normal leading-10  text-2xl text-darkShade  group-hover:underline">
                       {item.title}
                     </h3>
                     <p className="font-normal my-3   text-primary text-base leading-7">
@@ -93,7 +93,7 @@ function Blog() {
                         Read more
                       </p>
 
-                      <HiOutlineArrowNarrowRight className=" text-lightshade items-center" />
+                      <HiOutlineArrowNarrowRight className=" text-lightShade items-center" />
                     </Link>
                   </div>
                 </div>

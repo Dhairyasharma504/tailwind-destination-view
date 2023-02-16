@@ -66,7 +66,7 @@ function Subscribe() {
             className="w-full h-full absolute z-10"
           />
 
-          <div className=" bg-gray-800/80 md:my-16 lg:py-16 py-10 w-full md:mx-24 md:px-12 px-4 flex flex-col items-center justify-center relative z-40">
+          <div className=" bg-gray-800/70 md:my-16 lg:py-16 py-10 w-full md:mx-24 md:px-12 px-4 flex flex-col items-center justify-center relative z-40">
             <Title hastextwhite title="Don’t miss out!" />
             <Description
               hastextwhite

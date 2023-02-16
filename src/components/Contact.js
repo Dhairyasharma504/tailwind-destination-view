@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonPrimary from "./atoms/ButtonPrimary";
 import Description from "./atoms/Description";
 import Title from "./atoms/Title";
 
@@ -46,14 +47,10 @@ function Contact() {
                   placeholder="Message"
                 />
               </div>
-
-              <button
-                type="button"
-                className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md focus:outline-none"
-              >
-                get in touch
-              </button>
             </form>
+            <div className="">
+              <ButtonPrimary bgBlack borderBlack label=" get in touch" />
+            </div>
           </div>
 
           <div className=" mx-auto ">

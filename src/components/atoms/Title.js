@@ -5,7 +5,7 @@ function Title({ hastextwhite, title }) {
     <div>
       <h1
         className={`text-5xl tracking-wide  capitalize my-2 font-normal ${
-          hastextwhite ? " text-lightshade" : "text-darkshade "
+          hastextwhite ? " text-lightShade" : "text-darkShade "
         }  `}
       >
         {title}

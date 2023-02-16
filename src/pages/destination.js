@@ -9,8 +9,8 @@ const destination = () => {
   return (
     <div>
       <Layout heroBgImage="images/bg_1.jpg.webp">
-        <Guidance />
         <GallerySection />
+        <Guidance />
         <Promo />
         <ReviewHero />
       </Layout>

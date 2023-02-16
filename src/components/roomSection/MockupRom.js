@@ -15,7 +15,7 @@ function MockupRom() {
             height={500}
           />
         </div>
-        <div className=" bg-lightshade w-full text-center p-4 space-y-8 flex flex-col justify-center">
+        <div className=" bg-lightShade w-full text-center p-4 space-y-8 flex flex-col justify-center">
           <Title title="Take advantage of our seasonal specials." />
           <Subtitle
             hasTextblack

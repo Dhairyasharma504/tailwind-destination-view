@@ -11,7 +11,7 @@ function Card({ item, image, alt, width, height, label, typeRoom }) {
             <div className="relative">
               <Image src={image} alt={alt} width={width} height={height} />
               <div className="bg-brand absolute top-0 left-0">
-                <p className="text-base leading-4 py-3 px-5  text-lightshade uppercase  ">
+                <p className="text-base leading-4 py-3 px-5  text-lightShade uppercase  ">
                   {label}
                 </p>
               </div>

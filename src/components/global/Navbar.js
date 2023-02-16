@@ -4,23 +4,23 @@ import { HiMenuAlt3 } from "react-icons/hi";
 
 const navItems = [
   {
-    lable: "Home",
+    label: "Home",
     link: "/",
   },
   {
-    lable: "Destinations",
+    label: "Destinations",
     link: "/destination",
   },
   {
-    lable: "Reservations",
+    label: "Reservations",
     link: "/about",
   },
   {
-    lable: "contact",
+    label: "contact",
     link: "/contact",
   },
   {
-    lable: "Rooms",
+    label: "Rooms",
     link: "/rooms",
   },
 ];
@@ -53,10 +53,10 @@ function Navbar() {
         <ul className="flex flex-col fixed w-full h-full items-center justify-center ">
           {navItems.map((data) => (
             <div
-              key={data.lable}
-              className="m-8 relative font-medium  text-lightshade md:text-3xl text-lg hover:text-brand before:absolute before:-bottom-1 before:h-0.5 before:w-full before:scale-x-0 before:bg-brand before:transition hover:before:scale-x-100 "
+              key={data.label}
+              className="m-8 relative font-medium  text-lightShade md:text-3xl text-lg hover:text-brand before:absolute before:-bottom-1 before:h-0.5 before:w-full before:scale-x-0 before:bg-brand before:transition hover:before:scale-x-100 "
             >
-              <Link href={data.link}>{data.lable}</Link>
+              <Link href={data.link}>{data.label}</Link>
             </div>
           ))}
         </ul>
