@@ -3,8 +3,6 @@ import Layout from "../../components/global/Layout";
 import { rooms } from "../../utils/data";
 import Title from "../../components/atoms/Title";
 import Description from "../../components/atoms/Description";
-import Footer from "../../components/global/Footer";
-import RoomCard from "../../components/roomCard/RoomCard";
 
 function Rooms({ room }) {
   // console.log('room', room);
@@ -12,15 +10,30 @@ function Rooms({ room }) {
   return (
     <div>
       <Layout pageName={room?.typeRoom}>
-        <div className="container mx-auto">
-          <div className=" flex mx-auto  justify-center">
-            <Image src={room?.image} alt={room?.alt} width={600} height={600} />
-          </div>
-          <div className=" max-auto items-center flex flex-col ">
-            <Title title={room?.typeRoom} />
-            <Description text={room?.description} />
-            <Title title="Related Rooms" />
-            {/* <RoomCard /> */}
+        <div className="container mx-auto p-5  ">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-6 ">
+            <div className=" ">
+              <div className=" flex mx-auto  justify-center ">
+                <Image
+                  src={room?.image}
+                  alt={room?.alt}
+                  width={600}
+                  height={600}
+                  className=""
+                />
+              </div>
+            </div>
+            <div className="flex  flex-col justify-center">
+              <div className=" max-auto items-center flex flex-col ">
+                <div className="py-3">
+                  {" "}
+                  <Title title={room?.typeRoom} />
+                </div>
+                <Description text={room?.description} />
+
+                {/* <RoomCard /> */}
+              </div>
+            </div>
           </div>
         </div>
       </Layout>
