@@ -9,12 +9,14 @@ import ReviewHero from "../components/elements/review/ReviewHero";
 import GallerySection from "../components/elements/gallery/GallerySection";
 import Promo from "../components/elements/Promo";
 import Subscribe from "../components/Subscribe";
+import RoomCard from "../components/roomCard/RoomCard";
+import MockupRom from "../components/roomSection/MockupRom";
 
 const DiscoverStory = dynamic(
   () => import("../components/homeSection/DescoverStory"),
   {
     ssr: false,
-  },
+  }
 );
 
 function index() {
@@ -30,6 +32,7 @@ function index() {
         <Blog />
         <Guidance />
         <Promo />
+        <MockupRom />
         <ReviewHero />
         {/* <Team /> */}
         <Subscribe />

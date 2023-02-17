@@ -51,8 +51,6 @@ mx-auto  px-4"
         </div>
       </div>
       <SliderComponent
-        title="Our Pricing"
-        heading="Lorem Ipsum"
         rowItem={(item) => <ReviewElement key={item.id} item={item} />}
         data={reviewHero}
       />

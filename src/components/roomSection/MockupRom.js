@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Subtitle from "../atoms/Subtitle";
 import Title from "../atoms/Title";
+import ButtonPrimary from "../atoms/ButtonPrimary";
 
 function MockupRom() {
   return (
@@ -15,12 +17,20 @@ function MockupRom() {
             height={500}
           />
         </div>
+
         <div className=" bg-lightShade w-full text-center p-4 space-y-8 flex flex-col justify-center">
-          <Title title="Take advantage of our seasonal specials." />
-          <Subtitle
-            hasTextblack
-            subtitle="The concept and service of the best luxury hotels in Asturias in our sophisticated Urban Double and Unique Junior Suite rooms, with the possibility of enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft Suite."
-          />
+          <div>
+            <Title title="Take advantage of our seasonal specials." />
+            <Subtitle
+              hasTextBlack
+              subtitle="The concept and service of the best luxury hotels in Asturias in our sophisticated Urban Double and Unique Junior Suite rooms, with the possibility of enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft Suite."
+            />
+          </div>
+          <div className=" mx-auto">
+            <Link href="/rooms">
+              <ButtonPrimary borderBlack bgBlack label="Best Rooms" />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

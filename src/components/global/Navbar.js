@@ -8,20 +8,17 @@ const navItems = [
     link: "/",
   },
   {
+    label: "Rooms",
+    link: "/rooms",
+  },
+  {
     label: "Destinations",
     link: "/destination",
   },
-  {
-    label: "Reservations",
-    link: "/about",
-  },
+
   {
     label: "contact",
     link: "/contact",
-  },
-  {
-    label: "Rooms",
-    link: "/rooms",
   },
 ];
 
@@ -46,8 +43,8 @@ function Navbar() {
       <div
         className={
           nav
-            ? "ease-in duration-300 fixed  left-0 top-0 w-full h-screen bg-black/95 px-4 py-7 flex-col z-10"
-            : "absolute top-0 h-screen left-[-100%] ease-in duration-500 z-10"
+            ? "ease-in duration-300 fixed  left-0 top-0 w-full h-screen bg-black/95 px-4 py-7 flex-col z-50"
+            : "absolute top-0 h-screen left-[-100%] ease-in duration-500 z-50"
         }
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center ">

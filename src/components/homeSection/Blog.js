@@ -49,6 +49,8 @@ function Blog() {
               key={item.id}
               className=" group cursor-pointer  rounded-lg    hover:duration-500     "
               data-aos="flip-left"
+              data-aos-duration="2500"
+              data-aos-delay="100"
             >
               <div className="mx-auto mb-10">
                 <div className=" max-h-[250px] overflow-hidden relative">
