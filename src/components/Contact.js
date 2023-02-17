@@ -83,7 +83,7 @@ function Contact() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72 ">
-                  Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
+                  OUR OFFICES: London, UK ,Punjab, India
                 </span>
               </p>
 
@@ -104,7 +104,7 @@ function Contact() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72 ">
-                  (257) 563-7401
+                  +44-7747810130
                 </span>
               </p>
 
@@ -125,7 +125,7 @@ function Contact() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72">
-                  acb@example.com
+                  sales@zeiq.co
                 </span>
               </p>
             </div>

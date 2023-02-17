@@ -11,7 +11,7 @@ const blogs = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.",
     link: "/",
-    image: "/images/support-img.jpg.webp",
+    image: "/images/home-blog2.jpg",
     name: "Dhairya",
     createdAt: "2023 dec ",
   },
@@ -20,7 +20,7 @@ const blogs = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.",
     link: "/",
-    image: "/images/support-img.jpg.webp",
+    image: "/images/home-blog1.jpg",
     name: "Dhairya",
     createdAt: "2023 dec ",
   },
@@ -29,7 +29,7 @@ const blogs = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.",
     link: "/",
-    image: "/images/support-img.jpg.webp",
+    image: "/images/home-blog2.jpg",
     name: "Dhairya",
     createdAt: "2023 dec ",
   },
@@ -38,7 +38,7 @@ const blogs = [
 function Blog() {
   return (
     <div>
-      <div className="mx-auto container my-8   relative px-2">
+      <div className="mx-auto container my-4   relative px-2">
         <div className="mx-auto text-center">
           <Title title="Our blogs" />
           <Subtitle subtitle="updates" />
@@ -51,14 +51,14 @@ function Blog() {
               data-aos="flip-left"
             >
               <div className="mx-auto mb-10">
-                <div className=" max-h-[400px] overflow-hidden relative">
+                <div className=" max-h-[250px] overflow-hidden relative">
                   <div className=" overflow-hidden">
                     <Image
                       src={item.image}
                       alt={item.title}
                       width={500}
                       height={500}
-                      className="transition ease-in-out delay-150  group-hover:-translate-y-1 group-hover:scale-110  duration-500"
+                      className="transition ease-in-out  delay-75  group-hover:-translate-y-1 group-hover:scale-110  duration-700"
                     />
                   </div>
                   <div className="bg-brand absolute top-0 left-0">

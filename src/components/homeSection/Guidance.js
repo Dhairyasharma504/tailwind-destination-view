@@ -2,6 +2,8 @@ import React from "react";
 import { CiCreditCard1 } from "react-icons/ci";
 import { GiEgyptianProfile, GiThumbUp } from "react-icons/gi";
 import { SiYourtraveldottv } from "react-icons/si";
+import Subtitle from "../atoms/Subtitle";
+import Title from "../atoms/Title";
 
 const ItemData = [
   {

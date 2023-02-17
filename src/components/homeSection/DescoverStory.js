@@ -26,7 +26,6 @@ function DescoverStory() {
           data-aos="fade-right"
           data-aos-duration="2000"
           data-aos-delay="200"
-          data-aos-offset="120"
         >
           <Image
             src="/images/pic.png"

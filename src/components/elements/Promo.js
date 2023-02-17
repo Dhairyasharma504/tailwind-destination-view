@@ -6,9 +6,9 @@ function Promo() {
     <div>
       <div className="  pb-10 ">
         <div className="bg-[url('/images/promoView.webp')] bg-cover bg-no-repeat bg-fixed  ">
-          <div className=" bg-black/10 grid md:grid-cols-2 grid-cols-1 gap-3  mx-auto py-24 px-10">
-            <div className=" text-4xl font-semibold capitalize text-lightShade md:text-left text-center ">
-              <span>Summer Promo 50% Off</span>
+          <div className="  bg-black/20 grid md:grid-cols-2 grid-cols-1 gap-3  mx-auto py-24 px-10">
+            <div className=" text-4xl font-semibold capitalize  text-lightShade md:text-left text-center ">
+              <span className="mr-5">Summer Promo 50% Off</span>
               <span className="">
                 <ButtonPrimary label="avail now" />
               </span>

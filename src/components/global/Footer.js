@@ -30,9 +30,9 @@ function Footer() {
 
                 <Link
                   href="/"
-                  className="block text-2xl font-medium text-lightShade hover:opacity-75 sm:text-3xl"
+                  className="block text-xl font-medium text-lightShade hover:opacity-75 sm:text-xl"
                 >
-                  0123456789
+                  +44-7747810130
                 </Link>
               </p>
 
@@ -168,6 +168,14 @@ function Footer() {
                         destination view
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        href="/destination"
+                        className="text-lightShade transition hover:opacity-75"
+                      >
+                        contact us
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -179,28 +187,19 @@ function Footer() {
                   <ul className="space-y-4 text-sm">
                     <li>
                       <Link
-                        href="/"
+                        href="/contact"
                         className="text-lightShade transition hover:opacity-75"
                       >
-                        About
+                        sales@zeiq.co
                       </Link>
                     </li>
 
                     <li>
                       <Link
-                        href="#"
+                        href="https://www.zeiq.co/work"
                         className="text-lightShade transition hover:opacity-75"
                       >
-                        Meet the Team
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link
-                        href="#"
-                        className="text-lightShade transition hover:opacity-75"
-                      >
-                        Accounts Review
+                        other Projects
                       </Link>
                     </li>
                   </ul>
@@ -215,7 +214,7 @@ function Footer() {
                 <ul className="flex flex-wrap gap-4 text-xs">
                   <li>
                     <Link
-                      href="#"
+                      href="/"
                       className="text-lightShade transition hover:opacity-75"
                     >
                       Terms & Conditions
@@ -224,7 +223,7 @@ function Footer() {
 
                   <li>
                     <Link
-                      href="#"
+                      href="/"
                       className="text-lightShade transition hover:opacity-75"
                     >
                       Privacy Policy
@@ -233,7 +232,7 @@ function Footer() {
 
                   <li>
                     <Link
-                      href="#"
+                      href="/"
                       className="text-lightShade transition hover:opacity-75"
                     >
                       Cookies
@@ -243,7 +242,7 @@ function Footer() {
               </nav>
 
               <p className="mt-8 text-xs text-lightShade sm:mt-0">
-                &copy; 2022. Company Name. All rights reserved.
+                Zeiq.co All rights reserved.
               </p>
             </div>
           </div>
