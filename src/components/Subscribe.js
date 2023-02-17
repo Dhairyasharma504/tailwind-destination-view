@@ -56,7 +56,7 @@ import Title from "./atoms/Title";
 function Subscribe() {
   return (
     <div>
-      <div className="2xl:mx-auto 2xl:container mx-4 py-16">
+      <div className="  py-16">
         <div className="w-full relative flex items-center justify-center">
           <Image
             src="/images/bg_1.jpg.webp"

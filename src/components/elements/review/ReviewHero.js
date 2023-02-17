@@ -40,7 +40,10 @@ const reviewHero = [
 ];
 function ReviewHero() {
   return (
-    <div className="container mx-auto  px-4">
+    <div
+      className="container
+mx-auto  px-4"
+    >
       <div>
         <div className="mx-auto text-center">
           <Title title="customer review" />
