@@ -16,7 +16,7 @@ const DiscoverStory = dynamic(
   () => import("../components/homeSection/DescoverStory"),
   {
     ssr: false,
-  },
+  }
 );
 
 function index() {
@@ -31,8 +31,9 @@ function index() {
 
         <Blog />
         <Guidance />
-        <Promo />
+
         <MockupRom />
+        <Promo />
         <ReviewHero />
         {/* <Team /> */}
         <Subscribe />

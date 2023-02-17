@@ -5,7 +5,7 @@ function HeroWrapper({ bgImage, isSmall, children }) {
     <div className="pb-10">
       <div
         style={{
-          backgroundImage: `url(${bgImage || "/images/hero_1.jpg.webp"})`,
+          backgroundImage: `url(${bgImage || "/images/bg_1.jpg.webp"})`,
         }}
         className={`w-full ${
           isSmall ? "md:h-[65vh] h-[65vh]" : "md:h-[80vh] h-[100vh]"
