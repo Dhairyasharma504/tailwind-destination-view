@@ -12,10 +12,12 @@ function Hero({ pageName, bgImage }) {
       <div className="bg-black/40 md:h-[65vh] h-[65vh] ">
         <div className="h-full flex justify-center items-center">
           <p className="text-lightShade  flex  justify-center items-center">
-            <span className="  mr-1">
-              <TfiHome className=" w-5 h-5" />
-            </span>
-            <span> Home &gt;</span>
+            <Link href="/" className="flex hover:text-brand">
+              <span className="  mr-1">
+                <TfiHome className=" w-5 h-5   " />
+              </span>
+              <span className=" font-semibold"> Home &gt;</span>
+            </Link>
             <span className="ml-1 capitalize">
               {pageName || router?.asPath?.replace("/", "")}
             </span>{" "}
