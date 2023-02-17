@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import dynamic from "next/dynamic";
 import Blog from "../components/homeSection/Blog";
 
@@ -14,7 +14,7 @@ const DiscoverStory = dynamic(
   () => import("../components/homeSection/DescoverStory"),
   {
     ssr: false,
-  }
+  },
 );
 
 function index() {
