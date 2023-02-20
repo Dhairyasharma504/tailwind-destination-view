@@ -23,19 +23,15 @@ function index() {
   return (
     <div>
       <Layout isHome>
-        {/* <Pricing /> */}
-
         <DiscoverStory />
 
         <GallerySection />
 
         <Blog />
         <Guidance />
-
         <MockupRom />
         <Promo />
         <ReviewHero />
-        {/* <Team /> */}
         <Subscribe />
       </Layout>
     </div>

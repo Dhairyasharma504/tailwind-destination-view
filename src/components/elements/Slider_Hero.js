@@ -4,10 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function SliderComponent(props) {
+  const { heading, slidesToShow, data, rowItem } = props;
+
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 2,
+    slidesToShow: slidesToShow || 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
@@ -40,7 +42,6 @@ function SliderComponent(props) {
       },
     ],
   };
-  const { heading, title, data, rowItem } = props;
   return (
     <div className=" px-5 mx-auto pb-14">
       <Slider {...settings}>
