@@ -22,7 +22,7 @@ function ImageHover({
           alt={title}
           width={width}
           height={height}
-          className="absolute inset-0 h-full w-full object-cover  opacity-80 group-hover:opacity-50 transition ease-in-out delay-150  group-hover:-translate-y-1  duration-700   "
+          className="absolute inset-0 h-full w-full object-cover  opacity-80 group-hover:opacity-50 transition ease-in-out delay-150  group-hover:-translate-y-1 group-hover: scale-105  duration-700   "
         />
 
         <div className="relative ">
