@@ -16,7 +16,7 @@ const DiscoverStory = dynamic(
   () => import("../components/homeSection/DescoverStory"),
   {
     ssr: false,
-  },
+  }
 );
 
 function index() {

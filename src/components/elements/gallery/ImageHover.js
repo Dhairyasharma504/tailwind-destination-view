@@ -22,7 +22,7 @@ function ImageHover({
           alt={title}
           width={width}
           height={height}
-          className="absolute inset-0 h-full w-full object-cover  opacity-80 "
+          className="absolute inset-0 h-full w-full object-cover  opacity-80 group-hover:opacity-50 transition ease-in-out delay-150  group-hover:-translate-y-1  duration-700   "
         />
 
         <div className="relative ">
@@ -36,7 +36,7 @@ function ImageHover({
             </p>
           </div>
           <div className="mt-64 p-4">
-            <div className="translate-y-8  transform opacity-0 duration-700 ease-in-out">
+            <div className="translate-y-8  transform opacity-0 duration-700 ease-in-out transition-all group-hover:translate-y-0 group-hover:opacity-100">
               <p className=" text-clip overflow-hidden text-sm text-white  ">
                 {description}
               </p>
