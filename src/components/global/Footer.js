@@ -170,7 +170,7 @@ function Footer() {
                     </li>
                     <li>
                       <Link
-                        href="/destination"
+                        href="/contact"
                         className="text-lightShade transition hover:opacity-75"
                       >
                         contact us
