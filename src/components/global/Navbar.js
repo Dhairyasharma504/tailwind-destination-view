@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { HiMenuAlt3 } from "react-icons/hi";
+import { RxCross2 } from "react-icons/rx";
 
 const navItems = [
   {
@@ -35,16 +36,24 @@ function Navbar() {
           Experiences
         </h1>
       </Link>
-      <HiMenuAlt3
+      {/* <HiMenuAlt3
         onClick={handleNav}
         className="z-20 text-white  cursor-pointer"
         size={25}
-      />
+      /> */}
+
+      <button className="z-40  cursor-pointer" onClick={() => setNav(!nav)}>
+        {nav ? (
+          <RxCross2 className="h-10 w-10   text-white" />
+        ) : (
+          <HiMenuAlt3 className="h-10 w-10  text-white" />
+        )}
+      </button>
       <div
         className={
           nav
-            ? "ease-in duration-300 fixed  left-0 top-0 w-full h-screen bg-black/95 px-4 py-7 flex-col z-50"
-            : "absolute top-0 h-screen left-[-100%] ease-in duration-500 z-50"
+            ? "ease-in duration-300 fixed  left-0 top-0 w-full h-screen bg-black/95 px-4 py-7 flex-col z-30"
+            : "absolute top-0 h-screen left-[-100%] ease-in duration-500 z-30"
         }
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center ">
