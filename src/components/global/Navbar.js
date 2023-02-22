@@ -25,9 +25,6 @@ const navItems = [
 
 function Navbar() {
   const [nav, setNav] = useState(false);
-  const handleNav = () => {
-    setNav(!nav);
-  };
 
   return (
     <div className="absolute w-full flex justify-between p-4 items-center">
@@ -42,7 +39,11 @@ function Navbar() {
         size={25}
       /> */}
 
-      <button className="z-40  cursor-pointer" onClick={() => setNav(!nav)}>
+      <button
+        type="button"
+        className="z-40  cursor-pointer"
+        onClick={() => setNav(!nav)}
+      >
         {nav ? (
           <RxCross2 className="h-10 w-10   text-white" />
         ) : (
