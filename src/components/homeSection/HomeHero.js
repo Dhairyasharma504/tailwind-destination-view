@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Slider from "react-slick";
 import AOS from "aos";
 
+import Link from "next/link";
 import ButtonPrimary from "../atoms/ButtonPrimary";
 import HeroWrapper from "../global/HeroWrapper";
 
@@ -15,6 +16,13 @@ function SliderItem({ item }) {
   return (
     <HeroWrapper bgImage={item.bgImage}>
       <div className="bg-black/40 md:h-[80vh] h-[100vh]">
+        <div className="p-3">
+          <Link href="/">
+            <h1 className="text-white font-bold text-2xl z-20 cursor-pointer font-primary  hover:text-brand">
+              Experiences
+            </h1>
+          </Link>
+        </div>
         <div className="  p-6  h-full flex flex-col justify-center items-start  w-full text-lightShade ">
           <div
             className="md:w-3/4  xl:w-1/2  "
