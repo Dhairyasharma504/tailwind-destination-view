@@ -13,8 +13,8 @@ export default function Document() {
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1638977845750563"
-          crossorigin="anonymous"
-        ></script>
+          crossOrigin="anonymous"
+        />
 
         {/* <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
