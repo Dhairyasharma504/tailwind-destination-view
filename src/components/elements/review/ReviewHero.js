@@ -14,7 +14,7 @@ const reviewHero = [
     image: "/images/person_2.jpg.webp",
   },
   {
-    id: 1,
+    id: 2,
     name: "prabh",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.",
@@ -22,7 +22,7 @@ const reviewHero = [
     image: "/images/person_1.jpg.webp",
   },
   {
-    id: 2,
+    id: 3,
     name: "harry",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.",
@@ -30,7 +30,7 @@ const reviewHero = [
     image: "/images/person_1.jpg.webp",
   },
   {
-    id: 3,
+    id: 4,
     name: "lucifer",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae expedita fugiat quo incidunt, possimus temporibus aperiam eum, quaerat sapiente.",

@@ -10,6 +10,11 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
           rel="stylesheet"
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1638977845750563"
+          crossorigin="anonymous"
+        ></script>
 
         {/* <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
